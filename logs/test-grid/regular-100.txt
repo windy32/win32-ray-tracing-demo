@@ -1,0 +1,1205 @@
+Render test 1 / 100
+
+Starting Script (150 segments)
+Current Time: 175747.51
+Creating Tunnel: 175747.51
+Initialize Grid: 175747.65
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175747.68
+Render: 175747.68
+Finished: 175748.29
+
+Render test 2 / 100
+
+Starting Script (150 segments)
+Current Time: 175748.31
+Creating Tunnel: 175748.31
+Initialize Grid: 175748.43
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175748.45
+Render: 175748.45
+Finished: 175749.02
+
+Render test 3 / 100
+
+Starting Script (150 segments)
+Current Time: 175749.04
+Creating Tunnel: 175749.04
+Initialize Grid: 175749.17
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175749.18
+Render: 175749.18
+Finished: 175749.76
+
+Render test 4 / 100
+
+Starting Script (150 segments)
+Current Time: 175749.77
+Creating Tunnel: 175749.77
+Initialize Grid: 175749.88
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175749.90
+Render: 175749.90
+Finished: 175750.48
+
+Render test 5 / 100
+
+Starting Script (150 segments)
+Current Time: 175750.49
+Creating Tunnel: 175750.49
+Initialize Grid: 175750.62
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175750.63
+Render: 175750.63
+Finished: 175751.23
+
+Render test 6 / 100
+
+Starting Script (150 segments)
+Current Time: 175751.24
+Creating Tunnel: 175751.24
+Initialize Grid: 175751.36
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175751.38
+Render: 175751.38
+Finished: 175751.96
+
+Render test 7 / 100
+
+Starting Script (150 segments)
+Current Time: 175751.97
+Creating Tunnel: 175751.97
+Initialize Grid: 175752.08
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175752.10
+Render: 175752.10
+Finished: 175752.64
+
+Render test 8 / 100
+
+Starting Script (150 segments)
+Current Time: 175752.66
+Creating Tunnel: 175752.66
+Initialize Grid: 175752.77
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175752.79
+Render: 175752.79
+Finished: 175753.39
+
+Render test 9 / 100
+
+Starting Script (150 segments)
+Current Time: 175753.39
+Creating Tunnel: 175753.41
+Initialize Grid: 175753.53
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175753.55
+Render: 175753.55
+Finished: 175754.11
+
+Render test 10 / 100
+
+Starting Script (150 segments)
+Current Time: 175754.13
+Creating Tunnel: 175754.13
+Initialize Grid: 175754.24
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175754.25
+Render: 175754.25
+Finished: 175754.81
+
+Render test 11 / 100
+
+Starting Script (150 segments)
+Current Time: 175754.81
+Creating Tunnel: 175754.81
+Initialize Grid: 175754.92
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175754.94
+Render: 175754.94
+Finished: 175755.48
+
+Render test 12 / 100
+
+Starting Script (150 segments)
+Current Time: 175755.50
+Creating Tunnel: 175755.50
+Initialize Grid: 175755.59
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175755.61
+Render: 175755.61
+Finished: 175756.22
+
+Render test 13 / 100
+
+Starting Script (150 segments)
+Current Time: 175756.23
+Creating Tunnel: 175756.23
+Initialize Grid: 175756.36
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175756.37
+Render: 175756.39
+Finished: 175756.98
+
+Render test 14 / 100
+
+Starting Script (150 segments)
+Current Time: 175756.98
+Creating Tunnel: 175756.98
+Initialize Grid: 175757.11
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175757.12
+Render: 175757.14
+Finished: 175757.73
+
+Render test 15 / 100
+
+Starting Script (150 segments)
+Current Time: 175757.75
+Creating Tunnel: 175757.75
+Initialize Grid: 175757.87
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175757.89
+Render: 175757.89
+Finished: 175758.50
+
+Render test 16 / 100
+
+Starting Script (150 segments)
+Current Time: 175758.51
+Creating Tunnel: 175758.51
+Initialize Grid: 175758.65
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175758.67
+Render: 175758.67
+Finished: 175759.24
+
+Render test 17 / 100
+
+Starting Script (150 segments)
+Current Time: 175759.26
+Creating Tunnel: 175759.26
+Initialize Grid: 175759.37
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175759.38
+Render: 175759.38
+Finished: 175759.95
+
+Render test 18 / 100
+
+Starting Script (150 segments)
+Current Time: 175759.96
+Creating Tunnel: 175759.96
+Initialize Grid: 175760.09
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175760.10
+Render: 175760.10
+Finished: 175760.69
+
+Render test 19 / 100
+
+Starting Script (150 segments)
+Current Time: 175760.71
+Creating Tunnel: 175760.71
+Initialize Grid: 175760.82
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175760.83
+Render: 175760.83
+Finished: 175761.47
+
+Render test 20 / 100
+
+Starting Script (150 segments)
+Current Time: 175761.49
+Creating Tunnel: 175761.49
+Initialize Grid: 175761.61
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175761.63
+Render: 175761.63
+Finished: 175762.22
+
+Render test 21 / 100
+
+Starting Script (150 segments)
+Current Time: 175762.24
+Creating Tunnel: 175762.24
+Initialize Grid: 175762.36
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175762.38
+Render: 175762.38
+Finished: 175762.96
+
+Render test 22 / 100
+
+Starting Script (150 segments)
+Current Time: 175762.96
+Creating Tunnel: 175762.96
+Initialize Grid: 175763.08
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175763.10
+Render: 175763.10
+Finished: 175763.67
+
+Render test 23 / 100
+
+Starting Script (150 segments)
+Current Time: 175763.69
+Creating Tunnel: 175763.69
+Initialize Grid: 175763.81
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175763.81
+Render: 175763.83
+Finished: 175764.39
+
+Render test 24 / 100
+
+Starting Script (150 segments)
+Current Time: 175764.41
+Creating Tunnel: 175764.41
+Initialize Grid: 175764.52
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175764.53
+Render: 175764.53
+Finished: 175765.09
+
+Render test 25 / 100
+
+Starting Script (150 segments)
+Current Time: 175765.11
+Creating Tunnel: 175765.11
+Initialize Grid: 175765.22
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175765.23
+Render: 175765.25
+Finished: 175765.83
+
+Render test 26 / 100
+
+Starting Script (150 segments)
+Current Time: 175765.84
+Creating Tunnel: 175765.84
+Initialize Grid: 175765.97
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175765.98
+Render: 175765.98
+Finished: 175766.61
+
+Render test 27 / 100
+
+Starting Script (150 segments)
+Current Time: 175766.62
+Creating Tunnel: 175766.62
+Initialize Grid: 175766.73
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175766.75
+Render: 175766.76
+Finished: 175767.34
+
+Render test 28 / 100
+
+Starting Script (150 segments)
+Current Time: 175767.34
+Creating Tunnel: 175767.34
+Initialize Grid: 175767.45
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175767.47
+Render: 175767.47
+Finished: 175768.03
+
+Render test 29 / 100
+
+Starting Script (150 segments)
+Current Time: 175768.04
+Creating Tunnel: 175768.04
+Initialize Grid: 175768.15
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175768.17
+Render: 175768.17
+Finished: 175768.79
+
+Render test 30 / 100
+
+Starting Script (150 segments)
+Current Time: 175768.81
+Creating Tunnel: 175768.81
+Initialize Grid: 175768.95
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175768.96
+Render: 175768.96
+Finished: 175769.54
+
+Render test 31 / 100
+
+Starting Script (150 segments)
+Current Time: 175769.55
+Creating Tunnel: 175769.55
+Initialize Grid: 175769.66
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175769.68
+Render: 175769.68
+Finished: 175770.26
+
+Render test 32 / 100
+
+Starting Script (150 segments)
+Current Time: 175770.26
+Creating Tunnel: 175770.26
+Initialize Grid: 175770.40
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175770.41
+Render: 175770.41
+Finished: 175770.99
+
+Render test 33 / 100
+
+Starting Script (150 segments)
+Current Time: 175771.01
+Creating Tunnel: 175771.01
+Initialize Grid: 175771.10
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175771.11
+Render: 175771.11
+Finished: 175771.72
+
+Render test 34 / 100
+
+Starting Script (150 segments)
+Current Time: 175771.74
+Creating Tunnel: 175771.74
+Initialize Grid: 175771.86
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175771.88
+Render: 175771.88
+Finished: 175772.49
+
+Render test 35 / 100
+
+Starting Script (150 segments)
+Current Time: 175772.50
+Creating Tunnel: 175772.50
+Initialize Grid: 175772.63
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175772.64
+Render: 175772.64
+Finished: 175773.28
+
+Render test 36 / 100
+
+Starting Script (150 segments)
+Current Time: 175773.30
+Creating Tunnel: 175773.30
+Initialize Grid: 175773.42
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175773.45
+Render: 175773.45
+Finished: 175774.05
+
+Render test 37 / 100
+
+Starting Script (150 segments)
+Current Time: 175774.06
+Creating Tunnel: 175774.06
+Initialize Grid: 175774.19
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175774.20
+Render: 175774.20
+Finished: 175774.78
+
+Render test 38 / 100
+
+Starting Script (150 segments)
+Current Time: 175774.80
+Creating Tunnel: 175774.80
+Initialize Grid: 175774.92
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175774.94
+Render: 175774.94
+Finished: 175775.51
+
+Render test 39 / 100
+
+Starting Script (150 segments)
+Current Time: 175775.53
+Creating Tunnel: 175775.53
+Initialize Grid: 175775.66
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175775.67
+Render: 175775.67
+Finished: 175776.33
+
+Render test 40 / 100
+
+Starting Script (150 segments)
+Current Time: 175776.34
+Creating Tunnel: 175776.34
+Initialize Grid: 175776.45
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175776.47
+Render: 175776.48
+Finished: 175777.06
+
+Render test 41 / 100
+
+Starting Script (150 segments)
+Current Time: 175777.07
+Creating Tunnel: 175777.07
+Initialize Grid: 175777.18
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175777.20
+Render: 175777.20
+Finished: 175777.75
+
+Render test 42 / 100
+
+Starting Script (150 segments)
+Current Time: 175777.75
+Creating Tunnel: 175777.75
+Initialize Grid: 175777.85
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175777.87
+Render: 175777.87
+Finished: 175778.45
+
+Render test 43 / 100
+
+Starting Script (150 segments)
+Current Time: 175778.45
+Creating Tunnel: 175778.46
+Initialize Grid: 175778.57
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175778.59
+Render: 175778.59
+Finished: 175779.17
+
+Render test 44 / 100
+
+Starting Script (150 segments)
+Current Time: 175779.18
+Creating Tunnel: 175779.18
+Initialize Grid: 175779.32
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175779.34
+Render: 175779.34
+Finished: 175779.95
+
+Render test 45 / 100
+
+Starting Script (150 segments)
+Current Time: 175779.96
+Creating Tunnel: 175779.96
+Initialize Grid: 175780.15
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175780.16
+Render: 175780.16
+Finished: 175780.74
+
+Render test 46 / 100
+
+Starting Script (150 segments)
+Current Time: 175780.76
+Creating Tunnel: 175780.76
+Initialize Grid: 175780.88
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175780.90
+Render: 175780.91
+Finished: 175781.47
+
+Render test 47 / 100
+
+Starting Script (150 segments)
+Current Time: 175781.49
+Creating Tunnel: 175781.49
+Initialize Grid: 175781.61
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175781.63
+Render: 175781.63
+Finished: 175782.19
+
+Render test 48 / 100
+
+Starting Script (150 segments)
+Current Time: 175782.19
+Creating Tunnel: 175782.19
+Initialize Grid: 175782.33
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175782.35
+Render: 175782.35
+Finished: 175782.97
+
+Render test 49 / 100
+
+Starting Script (150 segments)
+Current Time: 175782.99
+Creating Tunnel: 175782.99
+Initialize Grid: 175783.13
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175783.14
+Render: 175783.14
+Finished: 175783.77
+
+Render test 50 / 100
+
+Starting Script (150 segments)
+Current Time: 175783.78
+Creating Tunnel: 175783.78
+Initialize Grid: 175783.91
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175783.92
+Render: 175783.92
+Finished: 175784.53
+
+Render test 51 / 100
+
+Starting Script (150 segments)
+Current Time: 175784.55
+Creating Tunnel: 175784.55
+Initialize Grid: 175784.66
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175784.67
+Render: 175784.67
+Finished: 175785.23
+
+Render test 52 / 100
+
+Starting Script (150 segments)
+Current Time: 175785.25
+Creating Tunnel: 175785.25
+Initialize Grid: 175785.36
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175785.37
+Render: 175785.39
+Finished: 175785.95
+
+Render test 53 / 100
+
+Starting Script (150 segments)
+Current Time: 175785.97
+Creating Tunnel: 175785.97
+Initialize Grid: 175786.09
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175786.11
+Render: 175786.11
+Finished: 175786.70
+
+Render test 54 / 100
+
+Starting Script (150 segments)
+Current Time: 175786.72
+Creating Tunnel: 175786.72
+Initialize Grid: 175786.86
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175786.87
+Render: 175786.87
+Finished: 175787.43
+
+Render test 55 / 100
+
+Starting Script (150 segments)
+Current Time: 175787.45
+Creating Tunnel: 175787.45
+Initialize Grid: 175787.56
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175787.57
+Render: 175787.57
+Finished: 175788.18
+
+Render test 56 / 100
+
+Starting Script (150 segments)
+Current Time: 175788.20
+Creating Tunnel: 175788.20
+Initialize Grid: 175788.35
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175788.37
+Render: 175788.37
+Finished: 175788.99
+
+Render test 57 / 100
+
+Starting Script (150 segments)
+Current Time: 175789.01
+Creating Tunnel: 175789.01
+Initialize Grid: 175789.13
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175789.15
+Render: 175789.15
+Finished: 175789.74
+
+Render test 58 / 100
+
+Starting Script (150 segments)
+Current Time: 175789.74
+Creating Tunnel: 175789.74
+Initialize Grid: 175789.85
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175789.87
+Render: 175789.87
+Finished: 175790.46
+
+Render test 59 / 100
+
+Starting Script (150 segments)
+Current Time: 175790.48
+Creating Tunnel: 175790.48
+Initialize Grid: 175790.60
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175790.61
+Render: 175790.61
+Finished: 175791.18
+
+Render test 60 / 100
+
+Starting Script (150 segments)
+Current Time: 175791.19
+Creating Tunnel: 175791.19
+Initialize Grid: 175791.30
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175791.32
+Render: 175791.32
+Finished: 175791.88
+
+Render test 61 / 100
+
+Starting Script (150 segments)
+Current Time: 175791.89
+Creating Tunnel: 175791.89
+Initialize Grid: 175792.02
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175792.04
+Render: 175792.05
+Finished: 175792.63
+
+Render test 62 / 100
+
+Starting Script (150 segments)
+Current Time: 175792.64
+Creating Tunnel: 175792.64
+Initialize Grid: 175792.77
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175792.78
+Render: 175792.78
+Finished: 175793.33
+
+Render test 63 / 100
+
+Starting Script (150 segments)
+Current Time: 175793.35
+Creating Tunnel: 175793.35
+Initialize Grid: 175793.45
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175793.47
+Render: 175793.47
+Finished: 175794.02
+
+Render test 64 / 100
+
+Starting Script (150 segments)
+Current Time: 175794.03
+Creating Tunnel: 175794.03
+Initialize Grid: 175794.17
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175794.19
+Render: 175794.19
+Finished: 175794.77
+
+Render test 65 / 100
+
+Starting Script (150 segments)
+Current Time: 175794.77
+Creating Tunnel: 175794.77
+Initialize Grid: 175794.87
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175794.89
+Render: 175794.89
+Finished: 175795.47
+
+Render test 66 / 100
+
+Starting Script (150 segments)
+Current Time: 175795.48
+Creating Tunnel: 175795.48
+Initialize Grid: 175795.61
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175795.62
+Render: 175795.62
+Finished: 175796.23
+
+Render test 67 / 100
+
+Starting Script (150 segments)
+Current Time: 175796.25
+Creating Tunnel: 175796.25
+Initialize Grid: 175796.37
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175796.39
+Render: 175796.39
+Finished: 175797.04
+
+Render test 68 / 100
+
+Starting Script (150 segments)
+Current Time: 175797.06
+Creating Tunnel: 175797.06
+Initialize Grid: 175797.18
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175797.20
+Render: 175797.21
+Finished: 175797.82
+
+Render test 69 / 100
+
+Starting Script (150 segments)
+Current Time: 175797.84
+Creating Tunnel: 175797.84
+Initialize Grid: 175797.98
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175797.99
+Render: 175797.99
+Finished: 175798.62
+
+Render test 70 / 100
+
+Starting Script (150 segments)
+Current Time: 175798.63
+Creating Tunnel: 175798.63
+Initialize Grid: 175798.77
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175798.79
+Render: 175798.79
+Finished: 175799.37
+
+Render test 71 / 100
+
+Starting Script (150 segments)
+Current Time: 175799.38
+Creating Tunnel: 175799.38
+Initialize Grid: 175799.49
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175799.51
+Render: 175799.51
+Finished: 175800.04
+
+Render test 72 / 100
+
+Starting Script (150 segments)
+Current Time: 175800.05
+Creating Tunnel: 175800.05
+Initialize Grid: 175800.16
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175800.18
+Render: 175800.18
+Finished: 175800.74
+
+Render test 73 / 100
+
+Starting Script (150 segments)
+Current Time: 175800.76
+Creating Tunnel: 175800.76
+Initialize Grid: 175800.88
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175800.90
+Render: 175800.90
+Finished: 175801.46
+
+Render test 74 / 100
+
+Starting Script (150 segments)
+Current Time: 175801.47
+Creating Tunnel: 175801.47
+Initialize Grid: 175801.58
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175801.60
+Render: 175801.60
+Finished: 175802.16
+
+Render test 75 / 100
+
+Starting Script (150 segments)
+Current Time: 175802.16
+Creating Tunnel: 175802.16
+Initialize Grid: 175802.30
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175802.32
+Render: 175802.32
+Finished: 175802.94
+
+Render test 76 / 100
+
+Starting Script (150 segments)
+Current Time: 175802.95
+Creating Tunnel: 175802.95
+Initialize Grid: 175803.08
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175803.10
+Render: 175803.10
+Finished: 175803.73
+
+Render test 77 / 100
+
+Starting Script (150 segments)
+Current Time: 175803.75
+Creating Tunnel: 175803.75
+Initialize Grid: 175803.88
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175803.89
+Render: 175803.91
+Finished: 175804.50
+
+Render test 78 / 100
+
+Starting Script (150 segments)
+Current Time: 175804.52
+Creating Tunnel: 175804.52
+Initialize Grid: 175804.64
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175804.66
+Render: 175804.66
+Finished: 175805.20
+
+Render test 79 / 100
+
+Starting Script (150 segments)
+Current Time: 175805.22
+Creating Tunnel: 175805.22
+Initialize Grid: 175805.33
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175805.34
+Render: 175805.34
+Finished: 175805.95
+
+Render test 80 / 100
+
+Starting Script (150 segments)
+Current Time: 175805.97
+Creating Tunnel: 175805.97
+Initialize Grid: 175806.09
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175806.11
+Render: 175806.12
+Finished: 175806.72
+
+Render test 81 / 100
+
+Starting Script (150 segments)
+Current Time: 175806.73
+Creating Tunnel: 175806.73
+Initialize Grid: 175806.86
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175806.87
+Render: 175806.87
+Finished: 175807.45
+
+Render test 82 / 100
+
+Starting Script (150 segments)
+Current Time: 175807.46
+Creating Tunnel: 175807.46
+Initialize Grid: 175807.59
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175807.60
+Render: 175807.60
+Finished: 175808.17
+
+Render test 83 / 100
+
+Starting Script (150 segments)
+Current Time: 175808.17
+Creating Tunnel: 175808.17
+Initialize Grid: 175808.27
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175808.29
+Render: 175808.29
+Finished: 175808.84
+
+Render test 84 / 100
+
+Starting Script (150 segments)
+Current Time: 175808.85
+Creating Tunnel: 175808.85
+Initialize Grid: 175808.95
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175808.96
+Render: 175808.96
+Finished: 175809.52
+
+Render test 85 / 100
+
+Starting Script (150 segments)
+Current Time: 175809.54
+Creating Tunnel: 175809.54
+Initialize Grid: 175809.66
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175809.68
+Render: 175809.68
+Finished: 175810.26
+
+Render test 86 / 100
+
+Starting Script (150 segments)
+Current Time: 175810.26
+Creating Tunnel: 175810.26
+Initialize Grid: 175810.38
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175810.40
+Render: 175810.40
+Finished: 175810.94
+
+Render test 87 / 100
+
+Starting Script (150 segments)
+Current Time: 175810.96
+Creating Tunnel: 175810.96
+Initialize Grid: 175811.08
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175811.10
+Render: 175811.10
+Finished: 175811.67
+
+Render test 88 / 100
+
+Starting Script (150 segments)
+Current Time: 175811.67
+Creating Tunnel: 175811.67
+Initialize Grid: 175811.80
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175811.82
+Render: 175811.82
+Finished: 175812.41
+
+Render test 89 / 100
+
+Starting Script (150 segments)
+Current Time: 175812.42
+Creating Tunnel: 175812.42
+Initialize Grid: 175812.55
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175812.57
+Render: 175812.57
+Finished: 175813.20
+
+Render test 90 / 100
+
+Starting Script (150 segments)
+Current Time: 175813.22
+Creating Tunnel: 175813.22
+Initialize Grid: 175813.36
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175813.38
+Render: 175813.38
+Finished: 175813.94
+
+Render test 91 / 100
+
+Starting Script (150 segments)
+Current Time: 175813.95
+Creating Tunnel: 175813.95
+Initialize Grid: 175814.06
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175814.08
+Render: 175814.08
+Finished: 175814.62
+
+Render test 92 / 100
+
+Starting Script (150 segments)
+Current Time: 175814.64
+Creating Tunnel: 175814.64
+Initialize Grid: 175814.76
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175814.78
+Render: 175814.80
+Finished: 175815.40
+
+Render test 93 / 100
+
+Starting Script (150 segments)
+Current Time: 175815.42
+Creating Tunnel: 175815.44
+Initialize Grid: 175815.56
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175815.58
+Render: 175815.58
+Finished: 175816.20
+
+Render test 94 / 100
+
+Starting Script (150 segments)
+Current Time: 175816.22
+Creating Tunnel: 175816.23
+Initialize Grid: 175816.36
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175816.37
+Render: 175816.39
+Finished: 175817.00
+
+Render test 95 / 100
+
+Starting Script (150 segments)
+Current Time: 175817.01
+Creating Tunnel: 175817.01
+Initialize Grid: 175817.14
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175817.15
+Render: 175817.15
+Finished: 175817.73
+
+Render test 96 / 100
+
+Starting Script (150 segments)
+Current Time: 175817.74
+Creating Tunnel: 175817.74
+Initialize Grid: 175817.85
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175817.87
+Render: 175817.88
+Finished: 175818.45
+
+Render test 97 / 100
+
+Starting Script (150 segments)
+Current Time: 175818.46
+Creating Tunnel: 175818.46
+Initialize Grid: 175818.60
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175818.62
+Render: 175818.62
+Finished: 175819.20
+
+Render test 98 / 100
+
+Starting Script (150 segments)
+Current Time: 175819.21
+Creating Tunnel: 175819.21
+Initialize Grid: 175819.33
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175819.35
+Render: 175819.35
+Finished: 175819.91
+
+Render test 99 / 100
+
+Starting Script (150 segments)
+Current Time: 175819.93
+Creating Tunnel: 175819.93
+Initialize Grid: 175820.04
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175820.05
+Render: 175820.05
+Finished: 175820.65
+
+Render test 100 / 100
+
+Starting Script (150 segments)
+Current Time: 175820.66
+Creating Tunnel: 175820.66
+Initialize Grid: 175820.80
+Grid Size: 100 x 2 x 100
+Initialization Finished: 175820.82
+Render: 175820.82
+Finished: 175821.46
+
+==================================
+Pass | Prepare Time | Execute Time
+-----+--------------+-------------
+   1 |        31 ms |       327 ms
+   2 |        15 ms |       328 ms
+   3 |        15 ms |       328 ms
+   4 |        16 ms |       312 ms
+   5 |        15 ms |       328 ms
+   6 |        16 ms |       343 ms
+   7 |        16 ms |       296 ms
+   8 |        16 ms |       328 ms
+   9 |        16 ms |       343 ms
+  10 |        16 ms |       312 ms
+  11 |        16 ms |       296 ms
+  12 |        16 ms |       296 ms
+  13 |        31 ms |       343 ms
+  14 |        32 ms |       312 ms
+  15 |        15 ms |       344 ms
+  16 |        15 ms |       328 ms
+  17 |        16 ms |       312 ms
+  18 |        16 ms |       343 ms
+  19 |        16 ms |       312 ms
+  20 |        15 ms |       328 ms
+  21 |        15 ms |       328 ms
+  22 |        16 ms |       327 ms
+  23 |        16 ms |       312 ms
+  24 |        16 ms |       312 ms
+  25 |        32 ms |       312 ms
+  26 |        16 ms |       327 ms
+  27 |        31 ms |       343 ms
+  28 |        16 ms |       312 ms
+  29 |        16 ms |       327 ms
+  30 |        15 ms |       328 ms
+  31 |        16 ms |       312 ms
+  32 |        15 ms |       343 ms
+  33 |        15 ms |       312 ms
+  34 |        16 ms |       343 ms
+  35 |        16 ms |       343 ms
+  36 |        31 ms |       328 ms
+  37 |        16 ms |       343 ms
+  38 |        15 ms |       328 ms
+  39 |        15 ms |       328 ms
+  40 |        32 ms |       312 ms
+  41 |        15 ms |       297 ms
+  42 |        16 ms |       312 ms
+  43 |        16 ms |       327 ms
+  44 |        15 ms |       344 ms
+  45 |        15 ms |       343 ms
+  46 |        31 ms |       328 ms
+  47 |        16 ms |       327 ms
+  48 |        15 ms |       328 ms
+  49 |        16 ms |       328 ms
+  50 |        16 ms |       343 ms
+  51 |        16 ms |       312 ms
+  52 |        31 ms |       312 ms
+  53 |        16 ms |       312 ms
+  54 |        15 ms |       328 ms
+  55 |        15 ms |       296 ms
+  56 |        16 ms |       343 ms
+  57 |        16 ms |       343 ms
+  58 |        16 ms |       312 ms
+  59 |        15 ms |       328 ms
+  60 |        15 ms |       312 ms
+  61 |        32 ms |       327 ms
+  62 |        16 ms |       312 ms
+  63 |        15 ms |       312 ms
+  64 |        16 ms |       327 ms
+  65 |        16 ms |       328 ms
+  66 |        16 ms |       312 ms
+  67 |        15 ms |       328 ms
+  68 |        31 ms |       328 ms
+  69 |        15 ms |       327 ms
+  70 |        16 ms |       328 ms
+  71 |        15 ms |       297 ms
+  72 |        15 ms |       328 ms
+  73 |        16 ms |       312 ms
+  74 |        16 ms |       312 ms
+  75 |        15 ms |       312 ms
+  76 |        15 ms |       328 ms
+  77 |        32 ms |       327 ms
+  78 |        15 ms |       312 ms
+  79 |        16 ms |       312 ms
+  80 |        31 ms |       327 ms
+  81 |        16 ms |       327 ms
+  82 |        16 ms |       312 ms
+  83 |        15 ms |       297 ms
+  84 |        16 ms |       296 ms
+  85 |        16 ms |       327 ms
+  86 |        15 ms |       312 ms
+  87 |        15 ms |       312 ms
+  88 |        16 ms |       312 ms
+  89 |        16 ms |       327 ms
+  90 |        16 ms |       327 ms
+  91 |        16 ms |       312 ms
+  92 |        31 ms |       328 ms
+  93 |        15 ms |       328 ms
+  94 |        31 ms |       327 ms
+  95 |        15 ms |       312 ms
+  96 |        31 ms |       312 ms
+  97 |        16 ms |       327 ms
+  98 |        16 ms |       312 ms
+  99 |        16 ms |       312 ms
+ 100 |        15 ms |       328 ms
+==================================
+ avg |        18 ms |       321 ms

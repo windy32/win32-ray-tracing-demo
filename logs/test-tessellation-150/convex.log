@@ -1,0 +1,1059 @@
+Note: As a win32 textbox cannot hold too much data,
+      the experiment is only executed 75 times.
+----------------------------------------------------
+
+Render test 1 / 75
+
+Starting Script (150 segments)
+Current Time: 37927.01
+Creating Tunnel: 37927.01
+Initialize Normal Vectors: 37927.15
+Initialize Edge Params: 37927.15
+Initialize Intersection Table: 37927.15
+Initialize Intersection Table (Y Axis): 37927.43
+Initialization Finished: 37927.87
+Render: 37927.87
+Finished: 37928.20
+
+Render test 2 / 75
+
+Starting Script (150 segments)
+Current Time: 37928.23
+Creating Tunnel: 37928.23
+Initialize Normal Vectors: 37928.37
+Initialize Edge Params: 37928.37
+Initialize Intersection Table: 37928.37
+Initialize Intersection Table (Y Axis): 37928.63
+Initialization Finished: 37929.02
+Render: 37929.02
+Finished: 37929.36
+
+Render test 3 / 75
+
+Starting Script (150 segments)
+Current Time: 37929.40
+Creating Tunnel: 37929.40
+Initialize Normal Vectors: 37929.54
+Initialize Edge Params: 37929.54
+Initialize Intersection Table: 37929.54
+Initialize Intersection Table (Y Axis): 37929.80
+Initialization Finished: 37930.16
+Render: 37930.16
+Finished: 37930.54
+
+Render test 4 / 75
+
+Starting Script (150 segments)
+Current Time: 37930.55
+Creating Tunnel: 37930.55
+Initialize Normal Vectors: 37930.69
+Initialize Edge Params: 37930.69
+Initialize Intersection Table: 37930.69
+Initialize Intersection Table (Y Axis): 37930.97
+Initialization Finished: 37931.39
+Render: 37931.39
+Finished: 37931.71
+
+Render test 5 / 75
+
+Starting Script (150 segments)
+Current Time: 37931.74
+Creating Tunnel: 37931.74
+Initialize Normal Vectors: 37931.89
+Initialize Edge Params: 37931.89
+Initialize Intersection Table: 37931.89
+Initialize Intersection Table (Y Axis): 37932.17
+Initialization Finished: 37932.56
+Render: 37932.56
+Finished: 37932.95
+
+Render test 6 / 75
+
+Starting Script (150 segments)
+Current Time: 37932.98
+Creating Tunnel: 37932.98
+Initialize Normal Vectors: 37933.14
+Initialize Edge Params: 37933.14
+Initialize Intersection Table: 37933.14
+Initialize Intersection Table (Y Axis): 37933.40
+Initialization Finished: 37933.81
+Render: 37933.81
+Finished: 37934.17
+
+Render test 7 / 75
+
+Starting Script (150 segments)
+Current Time: 37934.20
+Creating Tunnel: 37934.20
+Initialize Normal Vectors: 37934.42
+Initialize Edge Params: 37934.42
+Initialize Intersection Table: 37934.42
+Initialize Intersection Table (Y Axis): 37934.67
+Initialization Finished: 37935.09
+Render: 37935.09
+Finished: 37935.45
+
+Render test 8 / 75
+
+Starting Script (150 segments)
+Current Time: 37935.48
+Creating Tunnel: 37935.48
+Initialize Normal Vectors: 37935.64
+Initialize Edge Params: 37935.64
+Initialize Intersection Table: 37935.64
+Initialize Intersection Table (Y Axis): 37935.92
+Initialization Finished: 37936.35
+Render: 37936.35
+Finished: 37936.73
+
+Render test 9 / 75
+
+Starting Script (150 segments)
+Current Time: 37936.76
+Creating Tunnel: 37936.76
+Initialize Normal Vectors: 37936.96
+Initialize Edge Params: 37936.96
+Initialize Intersection Table: 37936.96
+Initialize Intersection Table (Y Axis): 37937.21
+Initialization Finished: 37937.60
+Render: 37937.60
+Finished: 37937.98
+
+Render test 10 / 75
+
+Starting Script (150 segments)
+Current Time: 37938.01
+Creating Tunnel: 37938.01
+Initialize Normal Vectors: 37938.18
+Initialize Edge Params: 37938.18
+Initialize Intersection Table: 37938.18
+Initialize Intersection Table (Y Axis): 37938.44
+Initialization Finished: 37938.85
+Render: 37938.85
+Finished: 37939.21
+
+Render test 11 / 75
+
+Starting Script (150 segments)
+Current Time: 37939.22
+Creating Tunnel: 37939.22
+Initialize Normal Vectors: 37939.35
+Initialize Edge Params: 37939.35
+Initialize Intersection Table: 37939.35
+Initialize Intersection Table (Y Axis): 37939.60
+Initialization Finished: 37940.00
+Render: 37940.00
+Finished: 37940.36
+
+Render test 12 / 75
+
+Starting Script (150 segments)
+Current Time: 37940.39
+Creating Tunnel: 37940.39
+Initialize Normal Vectors: 37940.55
+Initialize Edge Params: 37940.55
+Initialize Intersection Table: 37940.55
+Initialize Intersection Table (Y Axis): 37940.82
+Initialization Finished: 37941.27
+Render: 37941.27
+Finished: 37941.61
+
+Render test 13 / 75
+
+Starting Script (150 segments)
+Current Time: 37941.63
+Creating Tunnel: 37941.63
+Initialize Normal Vectors: 37941.77
+Initialize Edge Params: 37941.77
+Initialize Intersection Table: 37941.77
+Initialize Intersection Table (Y Axis): 37942.05
+Initialization Finished: 37942.47
+Render: 37942.47
+Finished: 37942.81
+
+Render test 14 / 75
+
+Starting Script (150 segments)
+Current Time: 37942.84
+Creating Tunnel: 37942.84
+Initialize Normal Vectors: 37942.98
+Initialize Edge Params: 37942.98
+Initialize Intersection Table: 37942.98
+Initialize Intersection Table (Y Axis): 37943.25
+Initialization Finished: 37943.65
+Render: 37943.65
+Finished: 37943.98
+
+Render test 15 / 75
+
+Starting Script (150 segments)
+Current Time: 37944.01
+Creating Tunnel: 37944.01
+Initialize Normal Vectors: 37944.17
+Initialize Edge Params: 37944.17
+Initialize Intersection Table: 37944.17
+Initialize Intersection Table (Y Axis): 37944.47
+Initialization Finished: 37944.86
+Render: 37944.86
+Finished: 37945.21
+
+Render test 16 / 75
+
+Starting Script (150 segments)
+Current Time: 37945.23
+Creating Tunnel: 37945.23
+Initialize Normal Vectors: 37945.37
+Initialize Edge Params: 37945.37
+Initialize Intersection Table: 37945.37
+Initialize Intersection Table (Y Axis): 37945.62
+Initialization Finished: 37946.03
+Render: 37946.03
+Finished: 37946.39
+
+Render test 17 / 75
+
+Starting Script (150 segments)
+Current Time: 37946.42
+Creating Tunnel: 37946.42
+Initialize Normal Vectors: 37946.62
+Initialize Edge Params: 37946.62
+Initialize Intersection Table: 37946.62
+Initialize Intersection Table (Y Axis): 37946.87
+Initialization Finished: 37947.32
+Render: 37947.32
+Finished: 37947.65
+
+Render test 18 / 75
+
+Starting Script (150 segments)
+Current Time: 37947.68
+Creating Tunnel: 37947.68
+Initialize Normal Vectors: 37947.85
+Initialize Edge Params: 37947.85
+Initialize Intersection Table: 37947.85
+Initialize Intersection Table (Y Axis): 37948.10
+Initialization Finished: 37948.51
+Render: 37948.51
+Finished: 37948.80
+
+Render test 19 / 75
+
+Starting Script (150 segments)
+Current Time: 37948.82
+Creating Tunnel: 37948.82
+Initialize Normal Vectors: 37948.94
+Initialize Edge Params: 37948.94
+Initialize Intersection Table: 37948.94
+Initialize Intersection Table (Y Axis): 37949.19
+Initialization Finished: 37949.60
+Render: 37949.60
+Finished: 37949.93
+
+Render test 20 / 75
+
+Starting Script (150 segments)
+Current Time: 37949.94
+Creating Tunnel: 37949.94
+Initialize Normal Vectors: 37950.14
+Initialize Edge Params: 37950.14
+Initialize Intersection Table: 37950.14
+Initialize Intersection Table (Y Axis): 37950.41
+Initialization Finished: 37950.82
+Render: 37950.82
+Finished: 37951.14
+
+Render test 21 / 75
+
+Starting Script (150 segments)
+Current Time: 37951.16
+Creating Tunnel: 37951.16
+Initialize Normal Vectors: 37951.30
+Initialize Edge Params: 37951.30
+Initialize Intersection Table: 37951.30
+Initialize Intersection Table (Y Axis): 37951.58
+Initialization Finished: 37952.02
+Render: 37952.02
+Finished: 37952.30
+
+Render test 22 / 75
+
+Starting Script (150 segments)
+Current Time: 37952.31
+Creating Tunnel: 37952.31
+Initialize Normal Vectors: 37952.45
+Initialize Edge Params: 37952.45
+Initialize Intersection Table: 37952.45
+Initialize Intersection Table (Y Axis): 37952.66
+Initialization Finished: 37953.01
+Render: 37953.01
+Finished: 37953.30
+
+Render test 23 / 75
+
+Starting Script (150 segments)
+Current Time: 37953.31
+Creating Tunnel: 37953.31
+Initialize Normal Vectors: 37953.47
+Initialize Edge Params: 37953.47
+Initialize Intersection Table: 37953.47
+Initialize Intersection Table (Y Axis): 37953.69
+Initialization Finished: 37954.09
+Render: 37954.09
+Finished: 37954.42
+
+Render test 24 / 75
+
+Starting Script (150 segments)
+Current Time: 37954.45
+Creating Tunnel: 37954.45
+Initialize Normal Vectors: 37954.61
+Initialize Edge Params: 37954.61
+Initialize Intersection Table: 37954.61
+Initialize Intersection Table (Y Axis): 37954.89
+Initialization Finished: 37955.31
+Render: 37955.31
+Finished: 37955.67
+
+Render test 25 / 75
+
+Starting Script (150 segments)
+Current Time: 37955.68
+Creating Tunnel: 37955.68
+Initialize Normal Vectors: 37955.84
+Initialize Edge Params: 37955.84
+Initialize Intersection Table: 37955.84
+Initialize Intersection Table (Y Axis): 37956.10
+Initialization Finished: 37956.51
+Render: 37956.51
+Finished: 37956.84
+
+Render test 26 / 75
+
+Starting Script (150 segments)
+Current Time: 37956.87
+Creating Tunnel: 37956.87
+Initialize Normal Vectors: 37957.01
+Initialize Edge Params: 37957.01
+Initialize Intersection Table: 37957.01
+Initialize Intersection Table (Y Axis): 37957.29
+Initialization Finished: 37957.73
+Render: 37957.73
+Finished: 37958.04
+
+Render test 27 / 75
+
+Starting Script (150 segments)
+Current Time: 37958.07
+Creating Tunnel: 37958.07
+Initialize Normal Vectors: 37958.21
+Initialize Edge Params: 37958.21
+Initialize Intersection Table: 37958.21
+Initialize Intersection Table (Y Axis): 37958.47
+Initialization Finished: 37958.88
+Render: 37958.90
+Finished: 37959.19
+
+Render test 28 / 75
+
+Starting Script (150 segments)
+Current Time: 37959.22
+Creating Tunnel: 37959.22
+Initialize Normal Vectors: 37959.46
+Initialize Edge Params: 37959.46
+Initialize Intersection Table: 37959.46
+Initialize Intersection Table (Y Axis): 37959.69
+Initialization Finished: 37960.08
+Render: 37960.08
+Finished: 37960.39
+
+Render test 29 / 75
+
+Starting Script (150 segments)
+Current Time: 37960.43
+Creating Tunnel: 37960.43
+Initialize Normal Vectors: 37960.60
+Initialize Edge Params: 37960.60
+Initialize Intersection Table: 37960.60
+Initialize Intersection Table (Y Axis): 37960.85
+Initialization Finished: 37961.25
+Render: 37961.25
+Finished: 37961.55
+
+Render test 30 / 75
+
+Starting Script (150 segments)
+Current Time: 37961.56
+Creating Tunnel: 37961.58
+Initialize Normal Vectors: 37961.74
+Initialize Edge Params: 37961.74
+Initialize Intersection Table: 37961.74
+Initialize Intersection Table (Y Axis): 37962.00
+Initialization Finished: 37962.38
+Render: 37962.38
+Finished: 37962.72
+
+Render test 31 / 75
+
+Starting Script (150 segments)
+Current Time: 37962.73
+Creating Tunnel: 37962.73
+Initialize Normal Vectors: 37962.87
+Initialize Edge Params: 37962.87
+Initialize Intersection Table: 37962.87
+Initialize Intersection Table (Y Axis): 37963.14
+Initialization Finished: 37963.48
+Render: 37963.48
+Finished: 37963.78
+
+Render test 32 / 75
+
+Starting Script (150 segments)
+Current Time: 37963.81
+Creating Tunnel: 37963.81
+Initialize Normal Vectors: 37963.95
+Initialize Edge Params: 37963.95
+Initialize Intersection Table: 37963.95
+Initialize Intersection Table (Y Axis): 37964.22
+Initialization Finished: 37964.62
+Render: 37964.62
+Finished: 37964.92
+
+Render test 33 / 75
+
+Starting Script (150 segments)
+Current Time: 37964.95
+Creating Tunnel: 37964.95
+Initialize Normal Vectors: 37965.14
+Initialize Edge Params: 37965.14
+Initialize Intersection Table: 37965.14
+Initialize Intersection Table (Y Axis): 37965.37
+Initialization Finished: 37965.79
+Render: 37965.79
+Finished: 37966.13
+
+Render test 34 / 75
+
+Starting Script (150 segments)
+Current Time: 37966.15
+Creating Tunnel: 37966.15
+Initialize Normal Vectors: 37966.31
+Initialize Edge Params: 37966.31
+Initialize Intersection Table: 37966.31
+Initialize Intersection Table (Y Axis): 37966.56
+Initialization Finished: 37966.96
+Render: 37966.96
+Finished: 37967.26
+
+Render test 35 / 75
+
+Starting Script (150 segments)
+Current Time: 37967.29
+Creating Tunnel: 37967.29
+Initialize Normal Vectors: 37967.40
+Initialize Edge Params: 37967.40
+Initialize Intersection Table: 37967.40
+Initialize Intersection Table (Y Axis): 37967.65
+Initialization Finished: 37968.02
+Render: 37968.04
+Finished: 37968.35
+
+Render test 36 / 75
+
+Starting Script (150 segments)
+Current Time: 37968.38
+Creating Tunnel: 37968.38
+Initialize Normal Vectors: 37968.52
+Initialize Edge Params: 37968.52
+Initialize Intersection Table: 37968.52
+Initialize Intersection Table (Y Axis): 37968.79
+Initialization Finished: 37969.18
+Render: 37969.18
+Finished: 37969.47
+
+Render test 37 / 75
+
+Starting Script (150 segments)
+Current Time: 37969.49
+Creating Tunnel: 37969.49
+Initialize Normal Vectors: 37969.64
+Initialize Edge Params: 37969.64
+Initialize Intersection Table: 37969.64
+Initialize Intersection Table (Y Axis): 37969.88
+Initialization Finished: 37970.25
+Render: 37970.27
+Finished: 37970.58
+
+Render test 38 / 75
+
+Starting Script (150 segments)
+Current Time: 37970.61
+Creating Tunnel: 37970.61
+Initialize Normal Vectors: 37970.75
+Initialize Edge Params: 37970.75
+Initialize Intersection Table: 37970.75
+Initialize Intersection Table (Y Axis): 37971.03
+Initialization Finished: 37971.44
+Render: 37971.44
+Finished: 37971.74
+
+Render test 39 / 75
+
+Starting Script (150 segments)
+Current Time: 37971.77
+Creating Tunnel: 37971.77
+Initialize Normal Vectors: 37971.91
+Initialize Edge Params: 37971.91
+Initialize Intersection Table: 37971.91
+Initialize Intersection Table (Y Axis): 37972.17
+Initialization Finished: 37972.61
+Render: 37972.61
+Finished: 37972.92
+
+Render test 40 / 75
+
+Starting Script (150 segments)
+Current Time: 37972.94
+Creating Tunnel: 37972.94
+Initialize Normal Vectors: 37973.11
+Initialize Edge Params: 37973.11
+Initialize Intersection Table: 37973.11
+Initialize Intersection Table (Y Axis): 37973.36
+Initialization Finished: 37973.76
+Render: 37973.76
+Finished: 37974.09
+
+Render test 41 / 75
+
+Starting Script (150 segments)
+Current Time: 37974.12
+Creating Tunnel: 37974.12
+Initialize Normal Vectors: 37974.26
+Initialize Edge Params: 37974.26
+Initialize Intersection Table: 37974.26
+Initialize Intersection Table (Y Axis): 37974.53
+Initialization Finished: 37974.92
+Render: 37974.93
+Finished: 37975.25
+
+Render test 42 / 75
+
+Starting Script (150 segments)
+Current Time: 37975.28
+Creating Tunnel: 37975.28
+Initialize Normal Vectors: 37975.43
+Initialize Edge Params: 37975.43
+Initialize Intersection Table: 37975.43
+Initialize Intersection Table (Y Axis): 37975.68
+Initialization Finished: 37976.04
+Render: 37976.04
+Finished: 37976.34
+
+Render test 43 / 75
+
+Starting Script (150 segments)
+Current Time: 37976.35
+Creating Tunnel: 37976.35
+Initialize Normal Vectors: 37976.48
+Initialize Edge Params: 37976.48
+Initialize Intersection Table: 37976.49
+Initialize Intersection Table (Y Axis): 37976.76
+Initialization Finished: 37977.18
+Render: 37977.18
+Finished: 37977.49
+
+Render test 44 / 75
+
+Starting Script (150 segments)
+Current Time: 37977.52
+Creating Tunnel: 37977.52
+Initialize Normal Vectors: 37977.66
+Initialize Edge Params: 37977.66
+Initialize Intersection Table: 37977.66
+Initialize Intersection Table (Y Axis): 37977.90
+Initialization Finished: 37978.30
+Render: 37978.30
+Finished: 37978.65
+
+Render test 45 / 75
+
+Starting Script (150 segments)
+Current Time: 37978.68
+Creating Tunnel: 37978.68
+Initialize Normal Vectors: 37978.85
+Initialize Edge Params: 37978.85
+Initialize Intersection Table: 37978.85
+Initialize Intersection Table (Y Axis): 37979.10
+Initialization Finished: 37979.52
+Render: 37979.52
+Finished: 37979.80
+
+Render test 46 / 75
+
+Starting Script (150 segments)
+Current Time: 37979.82
+Creating Tunnel: 37979.83
+Initialize Normal Vectors: 37979.97
+Initialize Edge Params: 37979.97
+Initialize Intersection Table: 37979.97
+Initialize Intersection Table (Y Axis): 37980.25
+Initialization Finished: 37980.67
+Render: 37980.67
+Finished: 37981.03
+
+Render test 47 / 75
+
+Starting Script (150 segments)
+Current Time: 37981.06
+Creating Tunnel: 37981.06
+Initialize Normal Vectors: 37981.20
+Initialize Edge Params: 37981.20
+Initialize Intersection Table: 37981.20
+Initialize Intersection Table (Y Axis): 37981.49
+Initialization Finished: 37981.92
+Render: 37981.94
+Finished: 37982.22
+
+Render test 48 / 75
+
+Starting Script (150 segments)
+Current Time: 37982.25
+Creating Tunnel: 37982.25
+Initialize Normal Vectors: 37982.42
+Initialize Edge Params: 37982.42
+Initialize Intersection Table: 37982.42
+Initialize Intersection Table (Y Axis): 37982.67
+Initialization Finished: 37983.08
+Render: 37983.08
+Finished: 37983.37
+
+Render test 49 / 75
+
+Starting Script (150 segments)
+Current Time: 37983.40
+Creating Tunnel: 37983.40
+Initialize Normal Vectors: 37983.53
+Initialize Edge Params: 37983.53
+Initialize Intersection Table: 37983.54
+Initialize Intersection Table (Y Axis): 37983.79
+Initialization Finished: 37984.20
+Render: 37984.20
+Finished: 37984.53
+
+Render test 50 / 75
+
+Starting Script (150 segments)
+Current Time: 37984.56
+Creating Tunnel: 37984.56
+Initialize Normal Vectors: 37984.73
+Initialize Edge Params: 37984.73
+Initialize Intersection Table: 37984.73
+Initialize Intersection Table (Y Axis): 37984.98
+Initialization Finished: 37985.35
+Render: 37985.35
+Finished: 37985.68
+
+Render test 51 / 75
+
+Starting Script (150 segments)
+Current Time: 37985.70
+Creating Tunnel: 37985.70
+Initialize Normal Vectors: 37985.88
+Initialize Edge Params: 37985.88
+Initialize Intersection Table: 37985.88
+Initialize Intersection Table (Y Axis): 37986.15
+Initialization Finished: 37986.52
+Render: 37986.54
+Finished: 37986.85
+
+Render test 52 / 75
+
+Starting Script (150 segments)
+Current Time: 37986.88
+Creating Tunnel: 37986.88
+Initialize Normal Vectors: 37987.04
+Initialize Edge Params: 37987.04
+Initialize Intersection Table: 37987.04
+Initialize Intersection Table (Y Axis): 37987.30
+Initialization Finished: 37987.71
+Render: 37987.72
+Finished: 37988.05
+
+Render test 53 / 75
+
+Starting Script (150 segments)
+Current Time: 37988.07
+Creating Tunnel: 37988.08
+Initialize Normal Vectors: 37988.22
+Initialize Edge Params: 37988.22
+Initialize Intersection Table: 37988.22
+Initialize Intersection Table (Y Axis): 37988.50
+Initialization Finished: 37988.94
+Render: 37988.96
+Finished: 37989.25
+
+Render test 54 / 75
+
+Starting Script (150 segments)
+Current Time: 37989.29
+Creating Tunnel: 37989.29
+Initialize Normal Vectors: 37989.41
+Initialize Edge Params: 37989.41
+Initialize Intersection Table: 37989.41
+Initialize Intersection Table (Y Axis): 37989.66
+Initialization Finished: 37990.03
+Render: 37990.03
+Finished: 37990.36
+
+Render test 55 / 75
+
+Starting Script (150 segments)
+Current Time: 37990.38
+Creating Tunnel: 37990.38
+Initialize Normal Vectors: 37990.53
+Initialize Edge Params: 37990.53
+Initialize Intersection Table: 37990.53
+Initialize Intersection Table (Y Axis): 37990.81
+Initialization Finished: 37991.24
+Render: 37991.24
+Finished: 37991.56
+
+Render test 56 / 75
+
+Starting Script (150 segments)
+Current Time: 37991.58
+Creating Tunnel: 37991.58
+Initialize Normal Vectors: 37991.72
+Initialize Edge Params: 37991.72
+Initialize Intersection Table: 37991.72
+Initialize Intersection Table (Y Axis): 37991.98
+Initialization Finished: 37992.37
+Render: 37992.37
+Finished: 37992.67
+
+Render test 57 / 75
+
+Starting Script (150 segments)
+Current Time: 37992.69
+Creating Tunnel: 37992.69
+Initialize Normal Vectors: 37992.86
+Initialize Edge Params: 37992.86
+Initialize Intersection Table: 37992.86
+Initialize Intersection Table (Y Axis): 37993.12
+Initialization Finished: 37993.51
+Render: 37993.51
+Finished: 37993.81
+
+Render test 58 / 75
+
+Starting Script (150 segments)
+Current Time: 37993.84
+Creating Tunnel: 37993.84
+Initialize Normal Vectors: 37994.00
+Initialize Edge Params: 37994.00
+Initialize Intersection Table: 37994.00
+Initialize Intersection Table (Y Axis): 37994.28
+Initialization Finished: 37994.73
+Render: 37994.73
+Finished: 37995.04
+
+Render test 59 / 75
+
+Starting Script (150 segments)
+Current Time: 37995.07
+Creating Tunnel: 37995.07
+Initialize Normal Vectors: 37995.24
+Initialize Edge Params: 37995.24
+Initialize Intersection Table: 37995.24
+Initialize Intersection Table (Y Axis): 37995.51
+Initialization Finished: 37995.90
+Render: 37995.92
+Finished: 37996.24
+
+Render test 60 / 75
+
+Starting Script (150 segments)
+Current Time: 37996.26
+Creating Tunnel: 37996.26
+Initialize Normal Vectors: 37996.41
+Initialize Edge Params: 37996.41
+Initialize Intersection Table: 37996.41
+Initialize Intersection Table (Y Axis): 37996.66
+Initialization Finished: 37997.08
+Render: 37997.08
+Finished: 37997.43
+
+Render test 61 / 75
+
+Starting Script (150 segments)
+Current Time: 37997.46
+Creating Tunnel: 37997.46
+Initialize Normal Vectors: 37997.63
+Initialize Edge Params: 37997.63
+Initialize Intersection Table: 37997.63
+Initialize Intersection Table (Y Axis): 37997.88
+Initialization Finished: 37998.27
+Render: 37998.29
+Finished: 37998.60
+
+Render test 62 / 75
+
+Starting Script (150 segments)
+Current Time: 37998.63
+Creating Tunnel: 37998.63
+Initialize Normal Vectors: 37998.83
+Initialize Edge Params: 37998.83
+Initialize Intersection Table: 37998.83
+Initialize Intersection Table (Y Axis): 37999.10
+Initialization Finished: 37999.50
+Render: 37999.52
+Finished: 37999.82
+
+Render test 63 / 75
+
+Starting Script (150 segments)
+Current Time: 37999.83
+Creating Tunnel: 37999.83
+Initialize Normal Vectors: 38000.00
+Initialize Edge Params: 38000.00
+Initialize Intersection Table: 38000.00
+Initialize Intersection Table (Y Axis): 38000.27
+Initialization Finished: 38000.69
+Render: 38000.69
+Finished: 38000.97
+
+Render test 64 / 75
+
+Starting Script (150 segments)
+Current Time: 38001.00
+Creating Tunnel: 38001.00
+Initialize Normal Vectors: 38001.11
+Initialize Edge Params: 38001.11
+Initialize Intersection Table: 38001.11
+Initialize Intersection Table (Y Axis): 38001.34
+Initialization Finished: 38001.70
+Render: 38001.72
+Finished: 38002.05
+
+Render test 65 / 75
+
+Starting Script (150 segments)
+Current Time: 38002.08
+Creating Tunnel: 38002.08
+Initialize Normal Vectors: 38002.22
+Initialize Edge Params: 38002.22
+Initialize Intersection Table: 38002.22
+Initialize Intersection Table (Y Axis): 38002.48
+Initialization Finished: 38002.92
+Render: 38002.92
+Finished: 38003.22
+
+Render test 66 / 75
+
+Starting Script (150 segments)
+Current Time: 38003.25
+Creating Tunnel: 38003.25
+Initialize Normal Vectors: 38003.40
+Initialize Edge Params: 38003.40
+Initialize Intersection Table: 38003.40
+Initialize Intersection Table (Y Axis): 38003.67
+Initialization Finished: 38004.12
+Render: 38004.12
+Finished: 38004.43
+
+Render test 67 / 75
+
+Starting Script (150 segments)
+Current Time: 38004.46
+Creating Tunnel: 38004.46
+Initialize Normal Vectors: 38004.64
+Initialize Edge Params: 38004.64
+Initialize Intersection Table: 38004.64
+Initialize Intersection Table (Y Axis): 38004.90
+Initialization Finished: 38005.29
+Render: 38005.31
+Finished: 38005.59
+
+Render test 68 / 75
+
+Starting Script (150 segments)
+Current Time: 38005.62
+Creating Tunnel: 38005.62
+Initialize Normal Vectors: 38005.74
+Initialize Edge Params: 38005.74
+Initialize Intersection Table: 38005.74
+Initialize Intersection Table (Y Axis): 38005.99
+Initialization Finished: 38006.45
+Render: 38006.45
+Finished: 38006.74
+
+Render test 69 / 75
+
+Starting Script (150 segments)
+Current Time: 38006.77
+Creating Tunnel: 38006.77
+Initialize Normal Vectors: 38006.93
+Initialize Edge Params: 38006.93
+Initialize Intersection Table: 38006.93
+Initialize Intersection Table (Y Axis): 38007.18
+Initialization Finished: 38007.63
+Render: 38007.63
+Finished: 38007.93
+
+Render test 70 / 75
+
+Starting Script (150 segments)
+Current Time: 38007.96
+Creating Tunnel: 38007.96
+Initialize Normal Vectors: 38008.11
+Initialize Edge Params: 38008.11
+Initialize Intersection Table: 38008.11
+Initialize Intersection Table (Y Axis): 38008.39
+Initialization Finished: 38008.80
+Render: 38008.80
+Finished: 38009.13
+
+Render test 71 / 75
+
+Starting Script (150 segments)
+Current Time: 38009.14
+Creating Tunnel: 38009.16
+Initialize Normal Vectors: 38009.30
+Initialize Edge Params: 38009.30
+Initialize Intersection Table: 38009.30
+Initialize Intersection Table (Y Axis): 38009.57
+Initialization Finished: 38010.02
+Render: 38010.02
+Finished: 38010.35
+
+Render test 72 / 75
+
+Starting Script (150 segments)
+Current Time: 38010.36
+Creating Tunnel: 38010.38
+Initialize Normal Vectors: 38010.53
+Initialize Edge Params: 38010.53
+Initialize Intersection Table: 38010.53
+Initialize Intersection Table (Y Axis): 38010.77
+Initialization Finished: 38011.22
+Render: 38011.22
+Finished: 38011.53
+
+Render test 73 / 75
+
+Starting Script (150 segments)
+Current Time: 38011.55
+Creating Tunnel: 38011.56
+Initialize Normal Vectors: 38011.69
+Initialize Edge Params: 38011.69
+Initialize Intersection Table: 38011.69
+Initialize Intersection Table (Y Axis): 38011.97
+Initialization Finished: 38012.42
+Render: 38012.42
+Finished: 38012.70
+
+Render test 74 / 75
+
+Starting Script (150 segments)
+Current Time: 38012.73
+Creating Tunnel: 38012.73
+Initialize Normal Vectors: 38012.92
+Initialize Edge Params: 38012.92
+Initialize Intersection Table: 38012.92
+Initialize Intersection Table (Y Axis): 38013.17
+Initialization Finished: 38013.64
+Render: 38013.64
+Finished: 38013.93
+
+Render test 75 / 75
+
+Starting Script (150 segments)
+Current Time: 38013.96
+Creating Tunnel: 38013.96
+Initialize Normal Vectors: 38014.09
+Initialize Edge Params: 38014.09
+Initialize Intersection Table: 38014.09
+Initialize Intersection Table (Y Axis): 38014.34
+Initialization Finished: 38014.71
+Render: 38014.71
+Finished: 38015.03
+
+==================================
+Pass | Prepare Time | Execute Time
+-----+--------------+-------------
+   1 |       717 ms |        94 ms
+   2 |       655 ms |        93 ms
+   3 |       624 ms |        78 ms
+   4 |       702 ms |        78 ms
+   5 |       671 ms |        78 ms
+   6 |       671 ms |        78 ms
+   7 |       671 ms |        78 ms
+   8 |       718 ms |        78 ms
+   9 |       640 ms |        93 ms
+  10 |       671 ms |        93 ms
+  11 |       655 ms |        94 ms
+  12 |       718 ms |        93 ms
+  13 |       702 ms |        94 ms
+  14 |       671 ms |        93 ms
+  15 |       687 ms |        47 ms
+  16 |       655 ms |        62 ms
+  17 |       702 ms |        62 ms
+  18 |       655 ms |        63 ms
+  19 |       655 ms |        63 ms
+  20 |       671 ms |        63 ms
+  21 |       717 ms |        63 ms
+  22 |       562 ms |        47 ms
+  23 |       624 ms |        47 ms
+  24 |       702 ms |        47 ms
+  25 |       671 ms |        63 ms
+  26 |       718 ms |        62 ms
+  27 |       686 ms |        47 ms
+  28 |       624 ms |        47 ms
+  29 |       656 ms |        62 ms
+  30 |       640 ms |        62 ms
+  31 |       608 ms |        63 ms
+  32 |       671 ms |        63 ms
+  33 |       655 ms |        47 ms
+  34 |       655 ms |        63 ms
+  35 |       640 ms |        62 ms
+  36 |       655 ms |        47 ms
+  37 |       624 ms |        47 ms
+  38 |       686 ms |        63 ms
+  39 |       702 ms |        47 ms
+  40 |       655 ms |        62 ms
+  41 |       671 ms |        47 ms
+  42 |       608 ms |        63 ms
+  43 |       702 ms |        63 ms
+  44 |       640 ms |        62 ms
+  45 |       670 ms |        63 ms
+  46 |       702 ms |        62 ms
+  47 |       733 ms |        47 ms
+  48 |       655 ms |        63 ms
+  49 |       670 ms |        63 ms
+  50 |       624 ms |        47 ms
+  51 |       655 ms |        47 ms
+  52 |       686 ms |        47 ms
+  53 |       733 ms |        47 ms
+  54 |       624 ms |        62 ms
+  55 |       702 ms |        62 ms
+  56 |       655 ms |        62 ms
+  57 |       656 ms |        47 ms
+  58 |       733 ms |        47 ms
+  59 |       671 ms |        62 ms
+  60 |       671 ms |        62 ms
+  61 |       655 ms |        47 ms
+  62 |       687 ms |        46 ms
+  63 |       687 ms |        62 ms
+  64 |       608 ms |        47 ms
+  65 |       702 ms |        63 ms
+  66 |       718 ms |        62 ms
+  67 |       671 ms |        47 ms
+  68 |       702 ms |        47 ms
+  69 |       702 ms |        46 ms
+  70 |       687 ms |        62 ms
+  71 |       718 ms |        46 ms
+  72 |       687 ms |        62 ms
+  73 |       733 ms |        47 ms
+  74 |       718 ms |        47 ms
+  75 |       624 ms |        63 ms
+==================================
+ avg |       672 ms |        61 ms

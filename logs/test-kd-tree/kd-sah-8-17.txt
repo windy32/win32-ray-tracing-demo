@@ -1,0 +1,980 @@
+Render test 1 / 75
+
+Starting Script (150 segments)
+Current Time: 192102.05
+Creating Tunnel: 192102.05
+Initialize k-d tree: 192102.22
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192107.27
+Render: 192107.27
+Finished: 192107.59
+
+Render test 2 / 75
+
+Starting Script (150 segments)
+Current Time: 192107.60
+Creating Tunnel: 192107.60
+Initialize k-d tree: 192107.70
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192112.94
+Render: 192112.94
+Finished: 192113.27
+
+Render test 3 / 75
+
+Starting Script (150 segments)
+Current Time: 192113.28
+Creating Tunnel: 192113.28
+Initialize k-d tree: 192113.39
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192118.44
+Render: 192118.44
+Finished: 192118.79
+
+Render test 4 / 75
+
+Starting Script (150 segments)
+Current Time: 192118.80
+Creating Tunnel: 192118.80
+Initialize k-d tree: 192118.99
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192124.17
+Render: 192124.19
+Finished: 192124.48
+
+Render test 5 / 75
+
+Starting Script (150 segments)
+Current Time: 192124.50
+Creating Tunnel: 192124.50
+Initialize k-d tree: 192124.62
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192129.99
+Render: 192129.99
+Finished: 192130.30
+
+Render test 6 / 75
+
+Starting Script (150 segments)
+Current Time: 192130.32
+Creating Tunnel: 192130.32
+Initialize k-d tree: 192130.44
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192135.96
+Render: 192135.96
+Finished: 192136.24
+
+Render test 7 / 75
+
+Starting Script (150 segments)
+Current Time: 192136.26
+Creating Tunnel: 192136.26
+Initialize k-d tree: 192136.37
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192141.44
+Render: 192141.44
+Finished: 192141.75
+
+Render test 8 / 75
+
+Starting Script (150 segments)
+Current Time: 192141.77
+Creating Tunnel: 192141.77
+Initialize k-d tree: 192141.88
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192147.54
+Render: 192147.55
+Finished: 192147.82
+
+Render test 9 / 75
+
+Starting Script (150 segments)
+Current Time: 192147.83
+Creating Tunnel: 192147.83
+Initialize k-d tree: 192147.98
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192153.39
+Render: 192153.39
+Finished: 192153.67
+
+Render test 10 / 75
+
+Starting Script (150 segments)
+Current Time: 192153.69
+Creating Tunnel: 192153.69
+Initialize k-d tree: 192153.79
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192159.43
+Render: 192159.43
+Finished: 192159.72
+
+Render test 11 / 75
+
+Starting Script (150 segments)
+Current Time: 192159.74
+Creating Tunnel: 192159.74
+Initialize k-d tree: 192159.86
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192164.76
+Render: 192164.76
+Finished: 192165.06
+
+Render test 12 / 75
+
+Starting Script (150 segments)
+Current Time: 192165.07
+Creating Tunnel: 192165.09
+Initialize k-d tree: 192165.18
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192170.63
+Render: 192170.64
+Finished: 192170.97
+
+Render test 13 / 75
+
+Starting Script (150 segments)
+Current Time: 192170.99
+Creating Tunnel: 192170.99
+Initialize k-d tree: 192171.14
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192175.71
+Render: 192175.71
+Finished: 192175.98
+
+Render test 14 / 75
+
+Starting Script (150 segments)
+Current Time: 192175.99
+Creating Tunnel: 192175.99
+Initialize k-d tree: 192176.10
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192180.75
+Render: 192180.77
+Finished: 192181.02
+
+Render test 15 / 75
+
+Starting Script (150 segments)
+Current Time: 192181.03
+Creating Tunnel: 192181.03
+Initialize k-d tree: 192181.16
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192185.79
+Render: 192185.79
+Finished: 192186.05
+
+Render test 16 / 75
+
+Starting Script (150 segments)
+Current Time: 192186.07
+Creating Tunnel: 192186.07
+Initialize k-d tree: 192186.16
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192191.58
+Render: 192191.58
+Finished: 192191.84
+
+Render test 17 / 75
+
+Starting Script (150 segments)
+Current Time: 192191.86
+Creating Tunnel: 192191.86
+Initialize k-d tree: 192191.98
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192196.57
+Render: 192196.57
+Finished: 192196.90
+
+Render test 18 / 75
+
+Starting Script (150 segments)
+Current Time: 192196.91
+Creating Tunnel: 192196.91
+Initialize k-d tree: 192197.05
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192202.62
+Render: 192202.62
+Finished: 192202.90
+
+Render test 19 / 75
+
+Starting Script (150 segments)
+Current Time: 192202.92
+Creating Tunnel: 192202.92
+Initialize k-d tree: 192203.04
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192208.54
+Render: 192208.54
+Finished: 192208.82
+
+Render test 20 / 75
+
+Starting Script (150 segments)
+Current Time: 192208.83
+Creating Tunnel: 192208.83
+Initialize k-d tree: 192208.94
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192214.88
+Render: 192214.88
+Finished: 192215.17
+
+Render test 21 / 75
+
+Starting Script (150 segments)
+Current Time: 192215.18
+Creating Tunnel: 192215.18
+Initialize k-d tree: 192215.30
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192220.58
+Render: 192220.58
+Finished: 192220.89
+
+Render test 22 / 75
+
+Starting Script (150 segments)
+Current Time: 192220.91
+Creating Tunnel: 192220.91
+Initialize k-d tree: 192221.03
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192226.18
+Render: 192226.18
+Finished: 192226.52
+
+Render test 23 / 75
+
+Starting Script (150 segments)
+Current Time: 192226.54
+Creating Tunnel: 192226.54
+Initialize k-d tree: 192226.68
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192232.36
+Render: 192232.36
+Finished: 192232.64
+
+Render test 24 / 75
+
+Starting Script (150 segments)
+Current Time: 192232.65
+Creating Tunnel: 192232.65
+Initialize k-d tree: 192232.78
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192238.19
+Render: 192238.19
+Finished: 192238.47
+
+Render test 25 / 75
+
+Starting Script (150 segments)
+Current Time: 192238.49
+Creating Tunnel: 192238.49
+Initialize k-d tree: 192238.63
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192243.96
+Render: 192243.98
+Finished: 192244.31
+
+Render test 26 / 75
+
+Starting Script (150 segments)
+Current Time: 192244.32
+Creating Tunnel: 192244.32
+Initialize k-d tree: 192244.45
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192249.95
+Render: 192249.95
+Finished: 192250.27
+
+Render test 27 / 75
+
+Starting Script (150 segments)
+Current Time: 192250.28
+Creating Tunnel: 192250.28
+Initialize k-d tree: 192250.41
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192255.66
+Render: 192255.66
+Finished: 192255.93
+
+Render test 28 / 75
+
+Starting Script (150 segments)
+Current Time: 192255.94
+Creating Tunnel: 192255.94
+Initialize k-d tree: 192256.05
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192261.50
+Render: 192261.50
+Finished: 192261.81
+
+Render test 29 / 75
+
+Starting Script (150 segments)
+Current Time: 192261.83
+Creating Tunnel: 192261.83
+Initialize k-d tree: 192261.98
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192267.61
+Render: 192267.61
+Finished: 192267.94
+
+Render test 30 / 75
+
+Starting Script (150 segments)
+Current Time: 192267.96
+Creating Tunnel: 192267.97
+Initialize k-d tree: 192268.10
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192273.49
+Render: 192273.49
+Finished: 192273.81
+
+Render test 31 / 75
+
+Starting Script (150 segments)
+Current Time: 192273.81
+Creating Tunnel: 192273.82
+Initialize k-d tree: 192273.95
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192279.80
+Render: 192279.80
+Finished: 192280.12
+
+Render test 32 / 75
+
+Starting Script (150 segments)
+Current Time: 192280.14
+Creating Tunnel: 192280.14
+Initialize k-d tree: 192280.26
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192286.21
+Render: 192286.22
+Finished: 192286.52
+
+Render test 33 / 75
+
+Starting Script (150 segments)
+Current Time: 192286.54
+Creating Tunnel: 192286.54
+Initialize k-d tree: 192286.64
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192292.17
+Render: 192292.17
+Finished: 192292.48
+
+Render test 34 / 75
+
+Starting Script (150 segments)
+Current Time: 192292.50
+Creating Tunnel: 192292.50
+Initialize k-d tree: 192292.60
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192298.11
+Render: 192298.11
+Finished: 192298.41
+
+Render test 35 / 75
+
+Starting Script (150 segments)
+Current Time: 192298.42
+Creating Tunnel: 192298.42
+Initialize k-d tree: 192298.53
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192304.27
+Render: 192304.27
+Finished: 192304.63
+
+Render test 36 / 75
+
+Starting Script (150 segments)
+Current Time: 192304.65
+Creating Tunnel: 192304.65
+Initialize k-d tree: 192304.79
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192310.75
+Render: 192310.75
+Finished: 192311.06
+
+Render test 37 / 75
+
+Starting Script (150 segments)
+Current Time: 192311.07
+Creating Tunnel: 192311.07
+Initialize k-d tree: 192311.20
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192316.74
+Render: 192316.74
+Finished: 192317.08
+
+Render test 38 / 75
+
+Starting Script (150 segments)
+Current Time: 192317.10
+Creating Tunnel: 192317.10
+Initialize k-d tree: 192317.33
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192322.52
+Render: 192322.52
+Finished: 192322.79
+
+Render test 39 / 75
+
+Starting Script (150 segments)
+Current Time: 192322.81
+Creating Tunnel: 192322.81
+Initialize k-d tree: 192322.93
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192328.31
+Render: 192328.31
+Finished: 192328.59
+
+Render test 40 / 75
+
+Starting Script (150 segments)
+Current Time: 192328.59
+Creating Tunnel: 192328.61
+Initialize k-d tree: 192328.72
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192333.48
+Render: 192333.48
+Finished: 192333.76
+
+Render test 41 / 75
+
+Starting Script (150 segments)
+Current Time: 192333.77
+Creating Tunnel: 192333.77
+Initialize k-d tree: 192333.88
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192339.28
+Render: 192339.28
+Finished: 192339.62
+
+Render test 42 / 75
+
+Starting Script (150 segments)
+Current Time: 192339.64
+Creating Tunnel: 192339.64
+Initialize k-d tree: 192339.76
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192344.61
+Render: 192344.61
+Finished: 192344.89
+
+Render test 43 / 75
+
+Starting Script (150 segments)
+Current Time: 192344.91
+Creating Tunnel: 192344.91
+Initialize k-d tree: 192345.04
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192350.18
+Render: 192350.18
+Finished: 192350.47
+
+Render test 44 / 75
+
+Starting Script (150 segments)
+Current Time: 192350.48
+Creating Tunnel: 192350.48
+Initialize k-d tree: 192350.62
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192355.67
+Render: 192355.67
+Finished: 192355.96
+
+Render test 45 / 75
+
+Starting Script (150 segments)
+Current Time: 192355.97
+Creating Tunnel: 192355.97
+Initialize k-d tree: 192356.10
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192361.14
+Render: 192361.14
+Finished: 192361.48
+
+Render test 46 / 75
+
+Starting Script (150 segments)
+Current Time: 192361.49
+Creating Tunnel: 192361.49
+Initialize k-d tree: 192361.62
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192367.19
+Render: 192367.19
+Finished: 192367.52
+
+Render test 47 / 75
+
+Starting Script (150 segments)
+Current Time: 192367.53
+Creating Tunnel: 192367.53
+Initialize k-d tree: 192367.66
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192373.19
+Render: 192373.19
+Finished: 192373.51
+
+Render test 48 / 75
+
+Starting Script (150 segments)
+Current Time: 192373.52
+Creating Tunnel: 192373.52
+Initialize k-d tree: 192373.63
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192379.20
+Render: 192379.20
+Finished: 192379.48
+
+Render test 49 / 75
+
+Starting Script (150 segments)
+Current Time: 192379.50
+Creating Tunnel: 192379.50
+Initialize k-d tree: 192379.61
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192384.96
+Render: 192384.97
+Finished: 192385.30
+
+Render test 50 / 75
+
+Starting Script (150 segments)
+Current Time: 192385.33
+Creating Tunnel: 192385.33
+Initialize k-d tree: 192385.46
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192391.45
+Render: 192391.45
+Finished: 192391.76
+
+Render test 51 / 75
+
+Starting Script (150 segments)
+Current Time: 192391.77
+Creating Tunnel: 192391.77
+Initialize k-d tree: 192391.90
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192397.48
+Render: 192397.48
+Finished: 192397.81
+
+Render test 52 / 75
+
+Starting Script (150 segments)
+Current Time: 192397.83
+Creating Tunnel: 192397.84
+Initialize k-d tree: 192397.97
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192404.13
+Render: 192404.13
+Finished: 192404.46
+
+Render test 53 / 75
+
+Starting Script (150 segments)
+Current Time: 192404.47
+Creating Tunnel: 192404.47
+Initialize k-d tree: 192404.61
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192410.29
+Render: 192410.29
+Finished: 192410.57
+
+Render test 54 / 75
+
+Starting Script (150 segments)
+Current Time: 192410.59
+Creating Tunnel: 192410.59
+Initialize k-d tree: 192410.71
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192416.52
+Render: 192416.52
+Finished: 192416.81
+
+Render test 55 / 75
+
+Starting Script (150 segments)
+Current Time: 192416.81
+Creating Tunnel: 192416.81
+Initialize k-d tree: 192416.92
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192422.69
+Render: 192422.69
+Finished: 192423.04
+
+Render test 56 / 75
+
+Starting Script (150 segments)
+Current Time: 192423.05
+Creating Tunnel: 192423.05
+Initialize k-d tree: 192423.16
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192428.43
+Render: 192428.43
+Finished: 192428.73
+
+Render test 57 / 75
+
+Starting Script (150 segments)
+Current Time: 192428.75
+Creating Tunnel: 192428.75
+Initialize k-d tree: 192428.86
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192434.50
+Render: 192434.50
+Finished: 192434.85
+
+Render test 58 / 75
+
+Starting Script (150 segments)
+Current Time: 192434.86
+Creating Tunnel: 192434.86
+Initialize k-d tree: 192435.00
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192440.23
+Render: 192440.23
+Finished: 192440.55
+
+Render test 59 / 75
+
+Starting Script (150 segments)
+Current Time: 192440.57
+Creating Tunnel: 192440.59
+Initialize k-d tree: 192440.71
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192446.34
+Render: 192446.34
+Finished: 192446.64
+
+Render test 60 / 75
+
+Starting Script (150 segments)
+Current Time: 192446.66
+Creating Tunnel: 192446.66
+Initialize k-d tree: 192446.78
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192452.29
+Render: 192452.29
+Finished: 192452.61
+
+Render test 61 / 75
+
+Starting Script (150 segments)
+Current Time: 192452.63
+Creating Tunnel: 192452.63
+Initialize k-d tree: 192452.77
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192457.76
+Render: 192457.76
+Finished: 192458.11
+
+Render test 62 / 75
+
+Starting Script (150 segments)
+Current Time: 192458.12
+Creating Tunnel: 192458.12
+Initialize k-d tree: 192458.25
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192463.60
+Render: 192463.60
+Finished: 192463.89
+
+Render test 63 / 75
+
+Starting Script (150 segments)
+Current Time: 192463.91
+Creating Tunnel: 192463.91
+Initialize k-d tree: 192464.10
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192469.23
+Render: 192469.23
+Finished: 192469.57
+
+Render test 64 / 75
+
+Starting Script (150 segments)
+Current Time: 192469.59
+Creating Tunnel: 192469.59
+Initialize k-d tree: 192469.71
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192475.38
+Render: 192475.38
+Finished: 192475.64
+
+Render test 65 / 75
+
+Starting Script (150 segments)
+Current Time: 192475.66
+Creating Tunnel: 192475.66
+Initialize k-d tree: 192475.75
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192480.85
+Render: 192480.85
+Finished: 192481.12
+
+Render test 66 / 75
+
+Starting Script (150 segments)
+Current Time: 192481.13
+Creating Tunnel: 192481.13
+Initialize k-d tree: 192481.30
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192486.90
+Render: 192486.90
+Finished: 192487.18
+
+Render test 67 / 75
+
+Starting Script (150 segments)
+Current Time: 192487.20
+Creating Tunnel: 192487.20
+Initialize k-d tree: 192487.32
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192492.02
+Render: 192492.02
+Finished: 192492.36
+
+Render test 68 / 75
+
+Starting Script (150 segments)
+Current Time: 192492.38
+Creating Tunnel: 192492.38
+Initialize k-d tree: 192492.50
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192497.57
+Render: 192497.57
+Finished: 192497.87
+
+Render test 69 / 75
+
+Starting Script (150 segments)
+Current Time: 192497.89
+Creating Tunnel: 192497.89
+Initialize k-d tree: 192498.00
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192503.88
+Render: 192503.88
+Finished: 192504.22
+
+Render test 70 / 75
+
+Starting Script (150 segments)
+Current Time: 192504.23
+Creating Tunnel: 192504.23
+Initialize k-d tree: 192504.38
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192509.68
+Render: 192509.68
+Finished: 192510.02
+
+Render test 71 / 75
+
+Starting Script (150 segments)
+Current Time: 192510.04
+Creating Tunnel: 192510.04
+Initialize k-d tree: 192510.16
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192515.97
+Render: 192515.97
+Finished: 192516.29
+
+Render test 72 / 75
+
+Starting Script (150 segments)
+Current Time: 192516.31
+Creating Tunnel: 192516.31
+Initialize k-d tree: 192516.43
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192521.83
+Render: 192521.83
+Finished: 192522.13
+
+Render test 73 / 75
+
+Starting Script (150 segments)
+Current Time: 192522.14
+Creating Tunnel: 192522.14
+Initialize k-d tree: 192522.25
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192527.50
+Render: 192527.50
+Finished: 192527.82
+
+Render test 74 / 75
+
+Starting Script (150 segments)
+Current Time: 192527.84
+Creating Tunnel: 192527.84
+Initialize k-d tree: 192527.96
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192532.83
+Render: 192532.83
+Finished: 192533.14
+
+Render test 75 / 75
+
+Starting Script (150 segments)
+Current Time: 192533.16
+Creating Tunnel: 192533.16
+Initialize k-d tree: 192533.27
+Total leaves: 21423
+Average Leaf Size: 14
+Initialization Finished: 192538.62
+Render: 192538.62
+Finished: 192538.96
+
+==================================
+Pass | Prepare Time | Execute Time
+-----+--------------+-------------
+   1 |      5055 ms |       125 ms
+   2 |      5242 ms |       140 ms
+   3 |      5054 ms |       140 ms
+   4 |      5195 ms |       125 ms
+   5 |      5366 ms |       141 ms
+   6 |      5522 ms |       125 ms
+   7 |      5070 ms |       140 ms
+   8 |      5678 ms |       125 ms
+   9 |      5414 ms |       109 ms
+  10 |      5632 ms |       140 ms
+  11 |      4898 ms |       125 ms
+  12 |      5460 ms |       141 ms
+  13 |      4570 ms |       110 ms
+  14 |      4665 ms |       109 ms
+  15 |      4633 ms |       125 ms
+  16 |      5414 ms |       109 ms
+  17 |      4587 ms |       140 ms
+  18 |      5570 ms |       124 ms
+  19 |      5491 ms |       125 ms
+  20 |      5943 ms |       125 ms
+  21 |      5273 ms |       141 ms
+  22 |      5148 ms |       156 ms
+  23 |      5678 ms |       125 ms
+  24 |      5413 ms |       125 ms
+  25 |      5350 ms |       141 ms
+  26 |      5507 ms |       141 ms
+  27 |      5257 ms |       109 ms
+  28 |      5444 ms |       141 ms
+  29 |      5632 ms |       156 ms
+  30 |      5398 ms |       125 ms
+  31 |      5850 ms |       141 ms
+  32 |      5959 ms |       125 ms
+  33 |      5522 ms |       140 ms
+  34 |      5507 ms |       125 ms
+  35 |      5741 ms |       156 ms
+  36 |      5959 ms |       125 ms
+  37 |      5538 ms |       156 ms
+  38 |      5195 ms |       109 ms
+  39 |      5383 ms |       124 ms
+  40 |      4758 ms |       125 ms
+  41 |      5397 ms |       141 ms
+  42 |      4852 ms |       124 ms
+  43 |      5148 ms |       125 ms
+  44 |      5054 ms |       125 ms
+  45 |      5039 ms |       140 ms
+  46 |      5569 ms |       140 ms
+  47 |      5538 ms |       140 ms
+  48 |      5569 ms |       109 ms
+  49 |      5366 ms |       140 ms
+  50 |      5990 ms |       141 ms
+  51 |      5584 ms |       141 ms
+  52 |      6162 ms |       156 ms
+  53 |      5678 ms |       109 ms
+  54 |      5803 ms |       125 ms
+  55 |      5772 ms |       156 ms
+  56 |      5273 ms |       140 ms
+  57 |      5647 ms |       156 ms
+  58 |      5226 ms |       156 ms
+  59 |      5632 ms |       125 ms
+  60 |      5507 ms |       140 ms
+  61 |      4992 ms |       156 ms
+  62 |      5351 ms |       125 ms
+  63 |      5132 ms |       140 ms
+  64 |      5663 ms |       109 ms
+  65 |      5101 ms |       125 ms
+  66 |      5600 ms |       125 ms
+  67 |      4696 ms |       156 ms
+  68 |      5070 ms |       124 ms
+  69 |      5881 ms |       140 ms
+  70 |      5304 ms |       156 ms
+  71 |      5803 ms |       141 ms
+  72 |      5398 ms |       140 ms
+  73 |      5242 ms |       140 ms
+  74 |      4867 ms |       140 ms
+  75 |      5350 ms |       156 ms
+==================================
+ avg |      5376 ms |       133 ms

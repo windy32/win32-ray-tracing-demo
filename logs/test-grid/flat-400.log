@@ -1,0 +1,286 @@
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35729.70
+Render: 35729.70
+Finished: 35730.33
+
+Render test 85 / 100
+
+Starting Script (150 segments)
+Current Time: 35730.61
+Creating Tunnel: 35730.61
+Initialize Grid: 35730.72
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35731.64
+Render: 35731.64
+Finished: 35732.20
+
+Render test 86 / 100
+
+Starting Script (150 segments)
+Current Time: 35732.50
+Creating Tunnel: 35732.50
+Initialize Grid: 35732.65
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35733.57
+Render: 35733.57
+Finished: 35734.12
+
+Render test 87 / 100
+
+Starting Script (150 segments)
+Current Time: 35734.38
+Creating Tunnel: 35734.40
+Initialize Grid: 35734.51
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35735.41
+Render: 35735.43
+Finished: 35735.96
+
+Render test 88 / 100
+
+Starting Script (150 segments)
+Current Time: 35736.19
+Creating Tunnel: 35736.19
+Initialize Grid: 35736.33
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35737.22
+Render: 35737.22
+Finished: 35737.80
+
+Render test 89 / 100
+
+Starting Script (150 segments)
+Current Time: 35738.08
+Creating Tunnel: 35738.08
+Initialize Grid: 35738.24
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35739.13
+Render: 35739.13
+Finished: 35739.66
+
+Render test 90 / 100
+
+Starting Script (150 segments)
+Current Time: 35739.94
+Creating Tunnel: 35739.94
+Initialize Grid: 35740.08
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35741.01
+Render: 35741.01
+Finished: 35741.59
+
+Render test 91 / 100
+
+Starting Script (150 segments)
+Current Time: 35741.87
+Creating Tunnel: 35741.87
+Initialize Grid: 35742.07
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35742.92
+Render: 35742.93
+Finished: 35743.43
+
+Render test 92 / 100
+
+Starting Script (150 segments)
+Current Time: 35743.73
+Creating Tunnel: 35743.73
+Initialize Grid: 35743.85
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35744.77
+Render: 35744.77
+Finished: 35745.32
+
+Render test 93 / 100
+
+Starting Script (150 segments)
+Current Time: 35745.60
+Creating Tunnel: 35745.60
+Initialize Grid: 35745.77
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35746.68
+Render: 35746.68
+Finished: 35747.19
+
+Render test 94 / 100
+
+Starting Script (150 segments)
+Current Time: 35747.49
+Creating Tunnel: 35747.49
+Initialize Grid: 35747.64
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35748.53
+Render: 35748.53
+Finished: 35749.11
+
+Render test 95 / 100
+
+Starting Script (150 segments)
+Current Time: 35749.39
+Creating Tunnel: 35749.39
+Initialize Grid: 35749.52
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35750.36
+Render: 35750.36
+Finished: 35750.90
+
+Render test 96 / 100
+
+Starting Script (150 segments)
+Current Time: 35751.17
+Creating Tunnel: 35751.17
+Initialize Grid: 35751.33
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35752.23
+Render: 35752.23
+Finished: 35752.76
+
+Render test 97 / 100
+
+Starting Script (150 segments)
+Current Time: 35753.04
+Creating Tunnel: 35753.04
+Initialize Grid: 35753.17
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35754.09
+Render: 35754.09
+Finished: 35754.62
+
+Render test 98 / 100
+
+Starting Script (150 segments)
+Current Time: 35754.90
+Creating Tunnel: 35754.90
+Initialize Grid: 35755.02
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35755.90
+Render: 35755.90
+Finished: 35756.46
+
+Render test 99 / 100
+
+Starting Script (150 segments)
+Current Time: 35756.74
+Creating Tunnel: 35756.74
+Initialize Grid: 35756.88
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35757.80
+Render: 35757.80
+Finished: 35758.36
+
+Render test 100 / 100
+
+Starting Script (150 segments)
+Current Time: 35758.64
+Creating Tunnel: 35758.64
+Initialize Grid: 35758.85
+Grid Size: 400 x 400 x 400
+Initialization Finished: 35759.67
+Render: 35759.67
+Finished: 35760.20
+
+==================================
+Pass | Prepare Time | Execute Time
+-----+--------------+-------------
+   1 |       796 ms |       265 ms
+   2 |       843 ms |       234 ms
+   3 |       874 ms |       266 ms
+   4 |       858 ms |       328 ms
+   5 |       874 ms |       249 ms
+   6 |       826 ms |       234 ms
+   7 |       827 ms |       468 ms
+   8 |       858 ms |       296 ms
+   9 |       889 ms |       249 ms
+  10 |       796 ms |       265 ms
+  11 |       827 ms |       234 ms
+  12 |       905 ms |       250 ms
+  13 |       795 ms |       234 ms
+  14 |       827 ms |       265 ms
+  15 |       780 ms |       265 ms
+  16 |       936 ms |       281 ms
+  17 |       936 ms |       281 ms
+  18 |       904 ms |       281 ms
+  19 |       936 ms |       265 ms
+  20 |       905 ms |       281 ms
+  21 |       874 ms |       280 ms
+  22 |       890 ms |       265 ms
+  23 |       951 ms |       266 ms
+  24 |       920 ms |       297 ms
+  25 |       873 ms |       266 ms
+  26 |       920 ms |       265 ms
+  27 |       905 ms |       250 ms
+  28 |       905 ms |       265 ms
+  29 |       936 ms |       266 ms
+  30 |       920 ms |       281 ms
+  31 |       905 ms |       281 ms
+  32 |       889 ms |       281 ms
+  33 |       936 ms |       265 ms
+  34 |       827 ms |       266 ms
+  35 |       921 ms |       281 ms
+  36 |       858 ms |       281 ms
+  37 |       874 ms |       281 ms
+  38 |       905 ms |       265 ms
+  39 |       905 ms |       265 ms
+  40 |       921 ms |       281 ms
+  41 |       951 ms |       312 ms
+  42 |       936 ms |       281 ms
+  43 |       826 ms |       297 ms
+  44 |       874 ms |       265 ms
+  45 |       952 ms |       281 ms
+  46 |       921 ms |       280 ms
+  47 |       858 ms |       265 ms
+  48 |       936 ms |       281 ms
+  49 |       905 ms |       296 ms
+  50 |       811 ms |       265 ms
+  51 |       904 ms |       281 ms
+  52 |       921 ms |       281 ms
+  53 |       920 ms |       250 ms
+  54 |       951 ms |       281 ms
+  55 |       874 ms |       281 ms
+  56 |       842 ms |       281 ms
+  57 |       889 ms |       296 ms
+  58 |       889 ms |       265 ms
+  59 |       921 ms |       265 ms
+  60 |       905 ms |       265 ms
+  61 |       921 ms |       280 ms
+  62 |       905 ms |       265 ms
+  63 |       873 ms |       249 ms
+  64 |       905 ms |       296 ms
+  65 |       936 ms |       296 ms
+  66 |       921 ms |       281 ms
+  67 |       874 ms |       280 ms
+  68 |       905 ms |       265 ms
+  69 |       936 ms |       281 ms
+  70 |       920 ms |       281 ms
+  71 |       858 ms |       281 ms
+  72 |       889 ms |       312 ms
+  73 |       889 ms |       265 ms
+  74 |       905 ms |       265 ms
+  75 |       889 ms |       265 ms
+  76 |       905 ms |       297 ms
+  77 |       905 ms |       265 ms
+  78 |       905 ms |       281 ms
+  79 |       889 ms |       265 ms
+  80 |       904 ms |       281 ms
+  81 |       904 ms |       281 ms
+  82 |       920 ms |       281 ms
+  83 |       952 ms |       280 ms
+  84 |       905 ms |       359 ms
+  85 |       921 ms |       280 ms
+  86 |       920 ms |       296 ms
+  87 |       920 ms |       281 ms
+  88 |       889 ms |       281 ms
+  89 |       890 ms |       265 ms
+  90 |       936 ms |       297 ms
+  91 |       858 ms |       265 ms
+  92 |       921 ms |       281 ms
+  93 |       905 ms |       265 ms
+  94 |       889 ms |       281 ms
+  95 |       843 ms |       265 ms
+  96 |       905 ms |       265 ms
+  97 |       920 ms |       265 ms
+  98 |       874 ms |       265 ms
+  99 |       921 ms |       265 ms
+ 100 |       827 ms |       266 ms
+==================================
+ avg |       892 ms |       276 ms
