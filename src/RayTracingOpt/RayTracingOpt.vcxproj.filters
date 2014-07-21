@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Material">
+      <UniqueIdentifier>{40ab0a9e-9987-4923-a19f-81910b24e297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{6e11561b-a6bd-4e08-a9ac-7ce55dbabe15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{8715c0af-913f-467c-b39e-6b93f8996d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{f5e71f6b-4ef5-46b5-b683-b5147def676e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Basic">
+      <UniqueIdentifier>{de59747e-d81d-4a6f-a32e-33fd1b83fdd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CheckerMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="PhongMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidColorMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometrySet.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="RadianceCheckerMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Geometry\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Geometry\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Geometry\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Geometry\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="TunnelGenerator.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomColorMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Tunnel.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Geometry\Basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CheckerMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="PhongMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidColorMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometrySet.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectResult.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="RadianceCheckerMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSetting.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="TunnelGenerator.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Geometry\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Geometry\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Geometry\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Geometry\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Polyhedron.h">
+      <Filter>Geometry\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomColorMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Tunnel.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Geometry\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointer.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="RayContext.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Main</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="erand48.h">
+      <Filter>Miscellaneous</Filter>
+    </None>
+  </ItemGroup>
+</Project>
