@@ -1,0 +1,1 @@
+It requires the Visual C++ 2012 Redistributable library.
