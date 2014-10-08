@@ -31,6 +31,7 @@ public:
 
 private: // Convex polygon acceleration
     enum RayDir { Forward, Backward };
+    enum { CONVEX_TABLE_SIZE = 100 };
 
     struct EdgeParam // A * x + B * y + C > 0
     {
@@ -40,14 +41,14 @@ private: // Convex polygon acceleration
 
     // decide whether a point is in a convex polygon
     enum IntersectionTableResult { Hit, Partial, Miss };
-    IntersectionTableResult intersectionTable[100][100];
+    IntersectionTableResult intersectionTable[CONVEX_TABLE_SIZE][CONVEX_TABLE_SIZE];
 
     struct EdgeRange
     {
         short start;
         short end;
     };
-    EdgeRange edgeRangeTable[100][100];
+    EdgeRange edgeRangeTable[CONVEX_TABLE_SIZE][CONVEX_TABLE_SIZE];
 
 private: // Convex polyhedron acceleration
     std::vector<int> intersectionTableYAxis[100][360];

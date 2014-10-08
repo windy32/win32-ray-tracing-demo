@@ -75,16 +75,16 @@ bool Tunnel::intersectWithPolygonAtOrigin(Ray &ray, float &distance)
     //   |<--------------->|
     //          width
     // 1. Map position (x, y) to cell location (i, j)
-    float cellWidth = width / 99.0f;
-    float cellHeight = height / 99.0f;
+    float cellWidth = width / (CONVEX_TABLE_SIZE - 1.0f);
+    float cellHeight = height / (CONVEX_TABLE_SIZE - 1.0f);
     float x = p.x;
     float y = p.y;
     int i = (int)((x + width / 2) / cellWidth + 0.5f);
     int j = (int)(y / cellHeight + 0.5f);
     i = std::max(i, 0);
     j = std::max(j, 0);
-    i = std::min(i, 99);
-    j = std::min(j, 99);
+    i = std::min(i, CONVEX_TABLE_SIZE - 1);
+    j = std::min(j, CONVEX_TABLE_SIZE - 1);
 
     if (intersectionTable[i][j] == Hit)
     {
@@ -102,7 +102,6 @@ bool Tunnel::intersectWithPolygonAtOrigin(Ray &ray, float &distance)
 
 bool Tunnel::inPolygon(const Point &p, int begin, int end)
 {
-    //for (unsigned int i = 0; i < edgeParams.size(); i++)
     for (int i = begin; i <= end; i++)
     {
         if (edgeParams[i].A * p.x +
@@ -258,9 +257,9 @@ void Tunnel::initConvex()
     // Initialize intersection table (with the cross section at the origin)
     Utils::PrintTickCount("Initialize Intersection Table");
 
-    for (int i = 0; i < 100; i++)
+    for (int i = 0; i < CONVEX_TABLE_SIZE; i++)
     {
-        for (int j = 0; j < 100; j++)
+        for (int j = 0; j < CONVEX_TABLE_SIZE; j++)
         {
             // P3 +-------+ P4
             //    |       |
@@ -274,8 +273,8 @@ void Tunnel::initConvex()
             //   |<--------------->|
             //          width
 
-            float cellWidth = width / 99.0f;
-            float cellHeight = height / 99.0f;
+            float cellWidth = width / (CONVEX_TABLE_SIZE - 1.0f);
+            float cellHeight = height / (CONVEX_TABLE_SIZE - 1.0f);
             Point center = Point(i * cellWidth - width / 2, j * cellHeight, 0);
             Point p1 = center + Vector(-cellWidth / 2, -cellHeight / 2);
             Point p2 = center + Vector(cellWidth / 2, -cellHeight / 2);
