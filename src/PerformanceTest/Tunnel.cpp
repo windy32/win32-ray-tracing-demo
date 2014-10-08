@@ -75,16 +75,16 @@ bool Tunnel::intersectWithPolygonAtOrigin(Ray &ray, float &distance)
     //   |<--------------->|
     //          width
     // 1. Map position (x, y) to cell location (i, j)
-    float cellWidth = width / 399.0f;
-    float cellHeight = height / 399.0f;
+    float cellWidth = width / 99.0f;
+    float cellHeight = height / 99.0f;
     float x = p.x;
     float y = p.y;
     int i = (int)((x + width / 2) / cellWidth + 0.5f);
     int j = (int)(y / cellHeight + 0.5f);
     i = std::max(i, 0);
     j = std::max(j, 0);
-    i = std::min(i, 399);
-    j = std::min(j, 399);
+    i = std::min(i, 99);
+    j = std::min(j, 99);
 
     if (intersectionTable[i][j] == Hit)
     {
@@ -96,13 +96,14 @@ bool Tunnel::intersectWithPolygonAtOrigin(Ray &ray, float &distance)
     }
     else // Partial
     {
-        return inPolygon(p);
+        return inPolygon(p, edgeRangeTable[i][j].start, edgeRangeTable[i][j].end);
     }
 }
 
-bool Tunnel::inPolygon(const Point &p)
+bool Tunnel::inPolygon(const Point &p, int begin, int end)
 {
-    for (unsigned int i = 0; i < edgeParams.size(); i++)
+    //for (unsigned int i = 0; i < edgeParams.size(); i++)
+    for (int i = begin; i <= end; i++)
     {
         if (edgeParams[i].A * p.x +
             edgeParams[i].B * p.y + 
@@ -112,6 +113,89 @@ bool Tunnel::inPolygon(const Point &p)
         }
     }
     return true;
+}
+
+Tunnel::IntersectionTableResult Tunnel::calcCellStatus(
+    const Point &p1, const Point &p2, const Point &p3, const Point &p4, short &minIndex, short &maxIndex)
+{
+    // P3 +-------+ P4
+    //    |       |
+    //    |   o   | <-- center
+    //    |       |
+    // P1 +-------+ P2
+    int hit = 0;
+    Point points[4] = { p1, p2, p3, p4 };
+
+    for (int i = 0; i < 4; i++)
+    {
+        Point &p = points[i];
+        int inside = 1;
+
+        for (unsigned int j = 0; j < edgeParams.size(); j++)
+        {
+            if (edgeParams[j].A * p.x +
+                edgeParams[j].B * p.y + 
+                edgeParams[j].C < 0.0001f) // if point is on the right side (avoid leaks)
+            {
+                inside = 0;
+                break;
+            }
+        }
+        hit += inside;
+    }
+
+    if (hit == 4) 
+    {
+        minIndex = -1;
+        maxIndex = -1;
+        return Hit;
+    }
+
+    if (hit == 0)
+    {
+        minIndex = -1;
+        maxIndex = -1;
+        return Miss;
+    }
+
+    // Partial
+    minIndex = SHRT_MAX;
+    maxIndex = SHRT_MIN;
+
+    for (unsigned int i = 0; i < edgeParams.size(); i++)
+    {
+        short index = (short)i;
+        bool intersect = false;
+        Point start = crossSection.vertices[i];
+        Point end = crossSection.vertices[(i + 1) % crossSection.vertices.size()];
+    
+        float s1 = edgeParams[i].A * p1.x + edgeParams[i].B * p1.y + edgeParams[i].C;
+        float s2 = edgeParams[i].A * p2.x + edgeParams[i].B * p2.y + edgeParams[i].C;
+        float s3 = edgeParams[i].A * p3.x + edgeParams[i].B * p3.y + edgeParams[i].C;
+        float s4 = edgeParams[i].A * p4.x + edgeParams[i].B * p4.y + edgeParams[i].C;
+
+        if ((s1 > 0.0001 && s2 > 0.0001 && s3 > 0.0001 && s4 > 0.0001) ||
+            (s1 < -0.0001 && s2 < -0.0001 && s3 < -0.0001 && s4 < -0.0001)) // all points are on one side -> cannot intersect
+        {
+        }
+        else // may intersect
+        {
+            if (start.x > p4.x && end.x > p4.x) // cannot intersect
+                ;
+            else if (start.x < p1.x && end.x < p1.x) // cannot intersect
+                ;
+            else if (start.y > p4.y && end.y > p4.y) // cannot intersect
+                ;
+            else if (start.y < p1.y && end.y < p1.y) // cannot intersect
+                ;
+            else // intersect
+            {
+                if (index > maxIndex) maxIndex = index;
+                if (index < minIndex) minIndex = index;
+            }
+        }
+    }
+    return Partial;
 }
 
 void Tunnel::init()
@@ -137,19 +221,6 @@ void Tunnel::initConvex()
 {
     Utils::PrintTickCount("Initialize Normal Vectors");
 
-    // Initialize normal vectors
-    for (unsigned int i = 0; i < path.size(); i++)
-    {
-        if (i < path.size() - 1)
-        {
-            nvs.push_back(Vector(path[i], path[i + 1]).norm());
-        }
-        else // i == path.size() - 1
-        {
-            nvs.push_back(Vector(path[i], path[i] + Vector(path[i - 1], path[i])).norm());
-        }
-    }
-
     // Initialize edge params
     //
     // Given P1(x1, y1), P2(x2, y2) and TARGET(x, y)
@@ -171,7 +242,6 @@ void Tunnel::initConvex()
     // 2 * N multiply operations, 3 * N add operations, and N compare operations.
     Utils::PrintTickCount("Initialize Edge Params");
 
-#if 1 // normal order
     for (unsigned int i = 0; i < crossSection.vertices.size(); i++)
     {
         Point &p1 = crossSection.vertices[i];
@@ -184,75 +254,13 @@ void Tunnel::initConvex()
 
         edgeParams.push_back(param);
     }
-#else // optimized order
-    // Step 1. Add critical edges
-    for (unsigned int i = 0; i < crossSection.vertices.size(); i++)
-    {
-        if ((crossSection.flags[i] & FLAG_CRITICAL) &&
-            (crossSection.flags[(i + 1) % crossSection.vertices.size()] & FLAG_CRITICAL))
-        {
-            Point &p1 = crossSection.vertices[i];
-            Point &p2 = crossSection.vertices[(i + 1) % crossSection.vertices.size()];
-
-            EdgeParam param;
-            param.A = p1.y - p2.y;
-            param.B = p2.x - p1.x;
-            param.C = p1.x * p2.y - p2.x * p1.y;
-
-            edgeParams.push_back(param);
-        }
-    }
-
-    // Step 2. Add other edges to a temp list
-    std::vector<EdgeParam> tempList;
-    for (unsigned int i = 0; i < crossSection.vertices.size(); i++)
-    {
-        if (!(crossSection.flags[i] & FLAG_CRITICAL) ||
-            !(crossSection.flags[(i + 1) % crossSection.vertices.size()] & FLAG_CRITICAL))
-        {
-            Point &p1 = crossSection.vertices[i];
-            Point &p2 = crossSection.vertices[(i + 1) % crossSection.vertices.size()];
-
-            EdgeParam param;
-            param.A = p1.y - p2.y;
-            param.B = p2.x - p1.x;
-            param.C = p1.x * p2.y - p2.x * p1.y;
-
-            tempList.push_back(param);
-        }
-    }
-
-    // Step 3. Add those "other edges", with a specific order
-    std::queue<std::pair<int, int>> queue;
-    queue.push(std::pair<int, int>(0, tempList.size() - 1));
-
-    while (!queue.empty())
-    {
-        std::pair<int, int> range = queue.front();
-        queue.pop();
-        int min = range.first;
-        int max = range.second;
-        int mid = (int)((min + max) / 2);
-
-        edgeParams.push_back(tempList[mid]);
-
-        if (mid > min)
-        {
-            queue.push(std::pair<int, int>(min, mid - 1));
-        }
-        if (max > mid)
-        {
-            queue.push(std::pair<int, int>(mid + 1, max));
-        }
-    }
-#endif
 
     // Initialize intersection table (with the cross section at the origin)
     Utils::PrintTickCount("Initialize Intersection Table");
 
-    for (int i = 0; i < 400; i++)
+    for (int i = 0; i < 100; i++)
     {
-        for (int j = 0; j < 400; j++)
+        for (int j = 0; j < 100; j++)
         {
             // P3 +-------+ P4
             //    |       |
@@ -266,25 +274,18 @@ void Tunnel::initConvex()
             //   |<--------------->|
             //          width
 
-            float cellWidth = width / 399.0f;
-            float cellHeight = height / 399.0f;
+            float cellWidth = width / 99.0f;
+            float cellHeight = height / 99.0f;
             Point center = Point(i * cellWidth - width / 2, j * cellHeight, 0);
             Point p1 = center + Vector(-cellWidth / 2, -cellHeight / 2);
             Point p2 = center + Vector(cellWidth / 2, -cellHeight / 2);
             Point p3 = center + Vector(-cellWidth / 2, cellHeight / 2);
             Point p4 = center + Vector(cellWidth / 2, cellHeight / 2);
-            int hitCount = 0;
-            if (inPolygon(p1)) hitCount += 1;
-            if (inPolygon(p2)) hitCount += 1;
-            if (inPolygon(p3)) hitCount += 1;
-            if (inPolygon(p4)) hitCount += 1;
 
-            if (hitCount == 0)
-                intersectionTable[i][j] = Miss;
-            else if (hitCount == 4)
-                intersectionTable[i][j] = Hit;
-            else
-                intersectionTable[i][j] = Partial;
+            short minIndex, maxIndex;
+            intersectionTable[i][j] = calcCellStatus(p1, p2, p3, p4, minIndex, maxIndex);
+            edgeRangeTable[i][j].start = minIndex;
+            edgeRangeTable[i][j].end = maxIndex;
         }
     }
 
@@ -1051,8 +1052,8 @@ IntersectResult Tunnel::fastIntersect(Ray &ray)
                             IntersectResult result = surface[i - 1][segmentIndex]->intersect(ray);
                             if (result.hit)
                             {
-                                Utils::DbgPrint("Intersect with triangle %d / %d\n", 
-                                    j, intersectionTableYAxis[index][iAngle].size());
+                                //Utils::DbgPrint("Intersect with triangle %d / %d\n", 
+                                //    j, intersectionTableYAxis[index][iAngle].size());
                                 context.segment = i - 1;
                                 return result;
                             }

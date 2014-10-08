@@ -244,33 +244,53 @@ bool TunnelGenerator::create(
         tunnel->surface.push_back(std::vector<Triangle *>());
     }
 
-    // 3. Traverse the path
-    //#pragma omp parallel for schedule(dynamic, 1) // Enable OpenMP
-    // !!! Warning: when multi-threading is enabled, smart pointers may fail to work!
-    // !!! Make sure the smart pointer is thread-safe!
+    // 2.1 Initialize normal vectors
+    int N = pathSegments;
 
-    for (int i = 0; i < pathSegments; i++)
+    //    1     2     3    ...    N       segment
+    // o-----o-----o-----o-----o-----o   path
+    // 0     1     2     3     4 ...  N   vertex
+    for (int i = 1; i <= N; i++)
     {
-        //            xxx..
-        //        xxx
-        //      xx
-        //    x
-        //   x
-        //  x
-        // x            Arc
-        // x
-        // o---------------------------> x axis
-        // |
-        // | z axis
-        // v
-        float theta1 = pathAngle * i / pathSegments;
-        float theta2 = pathAngle * (i + 1) / pathSegments;
-        Point p1(pathRadius * (1.0f - cos(theta1)), 0.0f, -pathRadius * sin(theta1));
-        Point p2(pathRadius * (1.0f - cos(theta2)), 0.0f, -pathRadius * sin(theta2));
-        float delta = (i == pathSegments - 1) ? 0 : pathAngle / pathSegments;
-        float offsetAngle1 = Vector(0, 0, -1).angleTo(Vector(p1, p2));
-        float offsetAngle2 = offsetAngle1 + delta;
+        Point start = tunnel->path[i - 1];
+        Point end = tunnel->path[i];
+        Vector dir = Vector(start, end).norm();
+        Vector prevDir = Vector(start, end).norm();
+        Vector nextDir = Vector(start, end).norm();
+    
+        //        [start]   vector dir    [end]
+        //               o-------------->o
+        //     vector   /                 \   vector
+        //    prev dir /                   \ next dir
+        //            /                     \
+        //           o                       o
+        // [path i-2]                         [path i+1]
+        if (i > 1)
+            prevDir = Vector(tunnel->path[i - 2], tunnel->path[i - 1]).norm();
 
+        if (i < N)
+            nextDir = Vector(tunnel->path[i], tunnel->path[i + 1]).norm();
+
+        Vector v1 = ((prevDir + dir) * 0.5).norm();
+        Vector v2 = ((dir + nextDir) * 0.5).norm();
+
+        if (i == 1)
+        {
+            tunnel->nvs.push_back(v1);
+            tunnel->nvs.push_back(v2);
+        }
+        else
+        {
+            tunnel->nvs.push_back(v2);
+        }
+    }
+
+    // 3. Traverse the path
+    for (int i = 0; i < N; i++)
+    {
+        float offsetAngle1 = Vector(0, 0, -1).angleTo(tunnel->nvs[i]);
+        float offsetAngle2 = Vector(0, 0, -1).angleTo(tunnel->nvs[i + 1]);
+        
         // 3.1 Create polygons "front" and "rear"
         Polygon front, rear;
         for (unsigned int j = 0; j < tunnel->crossSection.vertices.size(); j++)
@@ -279,11 +299,11 @@ bool TunnelGenerator::create(
             front.vertices.push_back(Point(
                 p.x * cos(offsetAngle1) - p.z * sin(offsetAngle1), 
                 p.y, 
-                p.x * sin(offsetAngle1) + p.z * cos(offsetAngle1)) + Vector(Point(0, 0, 0), p1));
+                p.x * sin(offsetAngle1) + p.z * cos(offsetAngle1)) + Vector(Point(0, 0, 0), tunnel->path[i]));
             rear.vertices.push_back(Point(
                 p.x * cos(offsetAngle2) - p.z * sin(offsetAngle2), 
                 p.y, 
-                p.x * sin(offsetAngle2) + p.z * cos(offsetAngle2)) + Vector(Point(0, 0, 0), p2));
+                p.x * sin(offsetAngle2) + p.z * cos(offsetAngle2)) + Vector(Point(0, 0, 0), tunnel->path[i + 1]));
         }
 
         // 3.2 Create polyhedron

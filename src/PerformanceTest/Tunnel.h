@@ -11,6 +11,7 @@ public:
     Polygon crossSection; // the cross section at the origin
     std::vector<Point> path;
     std::vector<std::vector<Triangle *>> surface;
+    std::vector<Vector> nvs; // normal vectors of the polygons
 
     // The algorithm used in tunnel-ray intersection
     enum Algorithm 
@@ -35,12 +36,18 @@ private: // Convex polygon acceleration
     {
         float A, B, C;
     };
-    std::vector<Vector> nvs; // normal vectors of the polygons
     std::vector<EdgeParam> edgeParams;
 
     // decide whether a point is in a convex polygon
     enum IntersectionTableResult { Hit, Partial, Miss };
-    IntersectionTableResult intersectionTable[400][400];
+    IntersectionTableResult intersectionTable[100][100];
+
+    struct EdgeRange
+    {
+        short start;
+        short end;
+    };
+    EdgeRange edgeRangeTable[100][100];
 
 private: // Convex polyhedron acceleration
     std::vector<int> intersectionTableYAxis[100][360];
@@ -95,7 +102,9 @@ private: // k-d tree acceleration
 private:
     bool intersectWithPolygon(Ray &ray, int index, Point &origin, Vector &dir, float &distance);
     bool intersectWithPolygonAtOrigin(Ray &ray, float &distance);
-    bool inPolygon(const Point &p);
+    bool inPolygon(const Point &p, int begin, int end);
+    IntersectionTableResult calcCellStatus(
+        const Point &p1, const Point &p2, const Point &p3, const Point &p4, short &minIndex, short &maxIndex);
     void getIndexInGrid(const Point &p, int &i, int &j, int&k);
 
     IntersectResult linearIntersect(Ray &ray);
