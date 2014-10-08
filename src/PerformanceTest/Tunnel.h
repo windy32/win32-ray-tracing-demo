@@ -100,6 +100,22 @@ private: // k-d tree acceleration
     };
     KdNode *root;
 
+public:
+    enum KdEventType { End, Planar, Start };
+    struct KdEvent
+    {
+        Triangle *triangle;
+        float position;
+        KdEventType type;
+
+        KdEvent(Triangle *triangle, float position, KdEventType type)
+        {
+            this->triangle = triangle;
+            this->position = position;
+            this->type = type;
+        }
+    };
+
 private:
     bool intersectWithPolygon(Ray &ray, int index, Point &origin, Vector &dir, float &distance);
     bool intersectWithPolygonAtOrigin(Ray &ray, float &distance);
@@ -120,7 +136,7 @@ private:
     void buildKdTree(KdNode *node, std::vector<Triangle *> &list, int depth, int &numLeaves, int &leafElements);
     void deleteTree(KdNode *node);
     float split(KdNode *node, int axis, std::vector<Triangle *> &list);
-    float splitSAH(KdNode *node, std::vector<Triangle *> &list, int &bestAxis);
+    float splitSAH(KdNode *node, std::vector<Triangle *> &list, int &bestAxis, float &minSAH);
 
 public:
     Tunnel();

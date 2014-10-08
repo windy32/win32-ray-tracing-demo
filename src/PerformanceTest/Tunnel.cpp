@@ -519,8 +519,6 @@ void Tunnel::initKdTree()
 
 bool cmpTriangleXAxis(const Triangle *t1, const Triangle *t2)
 {
-    //float x1 = std::min(std::min(t1->a.x, t1->b.x), t1->c.x);
-    //float x2 = std::min(std::min(t2->a.x, t2->b.x), t2->c.x);
     float x1 = (t1->a.x + t1->b.x + t1->c.x) / 3;
     float x2 = (t2->a.x + t2->b.x + t2->c.x) / 3;
     return x1 < x2;
@@ -528,8 +526,6 @@ bool cmpTriangleXAxis(const Triangle *t1, const Triangle *t2)
 
 bool cmpTriangleYAxis(const Triangle *t1, const Triangle *t2)
 {
-    //float y1 = std::min(std::min(t1->a.y, t1->b.y), t1->c.y);
-    //float y2 = std::min(std::min(t2->a.y, t2->b.y), t2->c.y);
     float y1 = (t1->a.y + t1->b.y + t1->c.y) / 3;
     float y2 = (t2->a.y + t2->b.y + t2->c.y) / 3;
     return y1 < y2;
@@ -537,11 +533,15 @@ bool cmpTriangleYAxis(const Triangle *t1, const Triangle *t2)
 
 bool cmpTriangleZAxis(const Triangle *t1, const Triangle *t2)
 {
-    //float z1 = std::min(std::min(t1->a.z, t1->b.z), t1->c.z);
-    //float z2 = std::min(std::min(t2->a.z, t2->b.z), t2->c.z);
     float z1 = (t1->a.z + t1->b.z + t1->c.z) / 3;
     float z2 = (t2->a.z + t2->b.z + t2->c.z) / 3;
     return z1 < z2;
+}
+
+bool cmpKdEvent(const Tunnel::KdEvent a, const Tunnel::KdEvent b)
+{
+    return (a.position < b.position) || 
+        ((a.position == b.position) && (int)a.type < (int)b.type);
 }
 
 void Tunnel::buildKdTree(KdNode *node, std::vector<Triangle *> &list, int depth, int &numLeaves, int &leafElements)
@@ -571,6 +571,7 @@ void Tunnel::buildKdTree(KdNode *node, std::vector<Triangle *> &list, int depth,
     // Split the triangle list
     int axis;
     float median;
+    float sah;
 
     if (algorithm == KdTreeStandard)
     {
@@ -582,7 +583,20 @@ void Tunnel::buildKdTree(KdNode *node, std::vector<Triangle *> &list, int depth,
     }
     else // KdTreeSAH
     {
-        median = splitSAH(node, list, axis);
+        median = splitSAH(node, list, axis, sah);
+
+        // Automatic termination
+        if (sah > 1.5f * list.size())
+        {
+            node->axis = NoAxis;
+            node->splitPlane = 0.0f; // whatever
+            node->left = NULL;
+            node->right = NULL;
+            node->list.assign(list.begin(), list.end());
+            numLeaves += 1;
+            leafElements += list.size();
+            return;
+        }
     }
 
     // Create node and construct subtrees
@@ -669,119 +683,103 @@ float Tunnel::split(KdNode *node, int axis, std::vector<Triangle *> &list)
     return median;
 }
 
-float Tunnel::splitSAH(KdNode *node, std::vector<Triangle *> &list, int &bestAxis)
+float Tunnel::splitSAH(KdNode *node, std::vector<Triangle *> &list, int &bestAxis, float &minSAH)
 {
-    float minSAH = FLT_MAX;
-    float minSplitValue;
+    minSAH = FLT_MAX;
+    float minPosition;
 
     for (int axis = 0; axis < 3; axis++)
     {
-        // Make a list of possible split values
-        const int N = 100;
-        std::vector<float> possibleValues; // Select not more than (N = 100) values
+        // Generate event list
+        std::vector<KdEvent> events;
 
-#if 1
-        // Use a simple way to select possible values
-        for (int i = 1; i < N; i++)
+        for (unsigned int i = 0; i < list.size(); i++)
         {
-            possibleValues.push_back(
-                node->min[axis] + (node->max[axis] - node->min[axis]) * i / N);
-        }
-#else
-        // Here's a more complex way:
-        if (list.size() <= N)
-        {
-            for (unsigned int i = 0; i < list.size(); i++)
+            // Clip triangle to box
+            Point min, max;
+            list[i]->getBoundingBox(min, max);
+
+            if (min[axis] == max[axis])
             {
-                float min = std::min(std::min(list[i]->a[axis], list[i]->b[axis]), list[i]->c[axis]);
-                float max = std::max(std::max(list[i]->a[axis], list[i]->b[axis]), list[i]->c[axis]);
-                possibleValues.push_back(min);
-                possibleValues.push_back(max);
+                events.push_back(KdEvent(list[i], min[axis], Planar));
             }
-        }
-        else
-        {
-            float step = list.size() / (float)N;
-            for (int i = 0; i < N; i++)
+            else
             {
-                int index = (int)(i * step);
-                float min = std::min(std::min(list[index]->a[axis], list[index]->b[axis]), list[index]->c[axis]);
-                float max = std::max(std::max(list[index]->a[axis], list[index]->b[axis]), list[index]->c[axis]);
-                possibleValues.push_back(min);
-                possibleValues.push_back(max);
+                events.push_back(KdEvent(list[i], min[axis], Start));
+                events.push_back(KdEvent(list[i], max[axis], End));
             }
         }
 
-        // Should not split space into two part, one 0% and the other 100%
-        for (int i = (int)possibleValues.size() - 1; i >= 0; i--)
+        // Sort event list
+        std::sort(events.begin(), events.end(), cmpKdEvent);
+
+        // Sweep all candidate split planes
+        int NL = 0;
+        int NP = 0;
+        int NR = list.size();
+
+        for (unsigned int i = 0; i < events.size(); )
         {
-            if (possibleValues[i] == node->min[axis] ||
-                possibleValues[i] == node->max[axis])
+            float position = events[i].position;
+            int PS = 0; // p(+) p_start
+            int PE = 0; // p(-) p_end
+            int PP = 0; // p(|) p_planar
+
+            while (i < events.size() && 
+                events[i].position == position && events[i].type == End)
             {
-                possibleValues.erase(possibleValues.begin() + i);
+                PE += 1; i += 1;
             }
-        }
 
-        // We get an empty list as a result
-        if (possibleValues.size() == 0)
-        {
-            // probably because all the elements share a same min / max value
-            // In this case, it's impossible to do spliting. 
-            // Select the median point in the standard way.
-            Triangle *t = list[list.size() / 2];
-            float median = (t->a[axis] + t->b[axis] + t->c[axis]) / 3;
-            return median;
-        }
-#endif
-        // Test each value
-        int nextAxis = (axis + 1) % 3; // x -> y -> z -> x ...
-        int prevAxis = (axis + 2) % 3; // z -> y -> x -> z ...
+            while (i < events.size() && 
+                events[i].position == position && events[i].type == Planar)
+            {
+                PP += 1; i += 1;
+            }
 
-        for (unsigned int i = 0; i < possibleValues.size(); i++)
-        {
+            while (i < events.size() && 
+                events[i].position == position && events[i].type == Start)
+            {
+                PS += 1; i += 1;
+            }
+
+            // Move plane onto p
+            NP = PP; NR -= PP; NR -= PE;
+            
+            // Calculate SAH
+            // KT: Traversal constant (1)
+            // KI: Intersection constant (1.5)
+            // SA: Surface area (total)
+            // SAL: Surface area (left)
+            // SAR: Surface area (right)
+            // Cost = KT + KI * ((SAL / SA) * (NL + NP) + (SAR / SA) * NR)
+            int nextAxis = (axis + 1) % 3; // x -> y -> z -> x ...
+            int prevAxis = (axis + 2) % 3; // z -> y -> x -> z ...
             Vector boxSize = Vector(node->min, node->max);
-            float leftWidth = possibleValues[i] - node->min[axis];
-            float rightWidth = node->max[axis] - possibleValues[i];
+
+            float width = node->max[axis] - node->min[axis];
+            float leftWidth = position - node->min[axis];
+            float rightWidth = node->max[axis] - position;
             float height = boxSize[nextAxis];
             float depth = boxSize[prevAxis];
 
-            // Count triangles in the left / right sub tree
-            float splitValue = possibleValues[i];
-            int leftCount = 0;
-            int rightCount = 0;
+            float SAL = leftWidth * height + leftWidth * depth + height * depth;
+            float SAR = rightWidth * height + rightWidth * depth + height * depth;
+            float SA = width * height + width * depth + height * depth;
 
-            for (unsigned int j = 0; j < list.size(); j++)
-            {
-                if (list[j]->a[axis] < splitValue || 
-                    list[j]->b[axis] < splitValue ||
-                    list[j]->c[axis] < splitValue)
-                {
-                    leftCount += 1;
-                }
-
-                if (list[j]->a[axis] >= splitValue ||
-                    list[j]->b[axis] >= splitValue ||
-                    list[j]->c[axis] >= splitValue)
-                {
-                    rightCount += 1;
-                }
-            }
-
-            // Calculate SAH value
-            float SAH = 
-                (leftWidth * height + leftWidth * depth + height * depth) * leftCount +
-                (rightWidth * height + rightWidth * depth + height * depth) * rightCount;
-
+            float SAH = 1 + 1.5f * ((SAL / SA) * NL + SAR / SA * (NR + NP));
             if (SAH < minSAH)
             {
                 minSAH = SAH;
-                minSplitValue = splitValue;
+                minPosition = position;
                 bestAxis = axis;
             }
+
+            NL += PS; NL += PP; NP = 0;
         }
     }
 
-    return minSplitValue;
+    return minPosition;
 }
 
 IntersectResult Tunnel::linearIntersect(Ray &ray)
