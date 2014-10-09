@@ -1,4 +1,5 @@
 #include "Tunnel.h"
+#include "Utils.h"
 
 #include "GridAcc.h"
 #include "KdTreeAcc.h"
@@ -57,6 +58,8 @@ void Tunnel::init()
         accConvex->init();
     }
     // else: nothing to do
+
+    Utils::PrintTickCount("Initialization Finished");
 }
 
 IntersectResult Tunnel::linearIntersect(Ray &ray)
