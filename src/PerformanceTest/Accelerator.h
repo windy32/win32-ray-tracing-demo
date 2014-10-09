@@ -9,7 +9,7 @@ protected:
     Tunnel *tunnel;
 
 public:
-    Accelerator(Tunnel *tunnel);
+    Accelerator(Tunnel *tunnel) : tunnel(tunnel) {}
     virtual void init() = 0;
     virtual IntersectResult intersect(Ray &ray) = 0;
 };

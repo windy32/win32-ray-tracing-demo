@@ -163,7 +163,10 @@ int main(int argc, char *argv[])
     int t4 = Utils::GetTickCount();
 
     // output
-    printf("%.0f\t%d\t%d\t%.1lf\t%.1lf\t%.1lf\t%.2lf MB\n", PATH_RADIUS, ARCH_SEG, PATH_SEG,
+    printf(
+        "%.0f\t%d\t%d\t"
+        "%.1lf ms\t%.1lf ms\t%.1lf ms\t"
+        "%.2lf MB\n", PATH_RADIUS, ARCH_SEG, PATH_SEG,
         (double)(t1 - t0), (double)(t2 - t1), (double)(t4 - t3), (double)(s1 - s0) / (1024 * 1024));
 
     return 0;

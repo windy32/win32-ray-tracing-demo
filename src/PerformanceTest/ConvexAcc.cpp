@@ -175,8 +175,6 @@ ConvexAcc::IntersectionTableResult ConvexAcc::calcCellStatus(
 
 void ConvexAcc::init()
 {
-    Utils::PrintTickCount("Initialize Normal Vectors");
-
     // Initialize edge params
     //
     // Given P1(x1, y1), P2(x2, y2) and TARGET(x, y)

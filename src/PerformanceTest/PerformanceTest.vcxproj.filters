@@ -64,9 +64,6 @@
     <ClCompile Include="KdTreeAcc.cpp">
       <Filter>Geometry\Tunnel</Filter>
     </ClCompile>
-    <ClCompile Include="Accelerator.cpp">
-      <Filter>Geometry\Tunnel</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.h">

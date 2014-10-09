@@ -37,12 +37,8 @@ public: // should be exposed to the compare functions for sorting
         float position;
         KdEventType type;
 
-        KdEvent(Triangle *triangle, float position, KdEventType type)
-        {
-            this->triangle = triangle;
-            this->position = position;
-            this->type = type;
-        }
+        KdEvent(Triangle *triangle, float position, KdEventType type) : 
+            triangle(triangle), position(position), type(type) {}
     };
 
 private:

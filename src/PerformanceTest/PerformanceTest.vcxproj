@@ -76,7 +76,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Accelerator.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="ConvexAcc.cpp" />
     <ClCompile Include="Geometry.cpp" />
