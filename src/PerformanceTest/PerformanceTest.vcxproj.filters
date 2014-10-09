@@ -10,6 +10,9 @@
     <Filter Include="Miscellaneous">
       <UniqueIdentifier>{c66558fd-7ae7-4bea-861c-9e865b9ecf54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Geometry\Tunnel">
+      <UniqueIdentifier>{7d962727-ab83-42a6-945c-331e7626869e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -37,9 +40,6 @@
     <ClCompile Include="Triangle.cpp">
       <Filter>Geometry</Filter>
     </ClCompile>
-    <ClCompile Include="Tunnel.cpp">
-      <Filter>Geometry</Filter>
-    </ClCompile>
     <ClCompile Include="Camera.cpp">
       <Filter>Miscellaneous</Filter>
     </ClCompile>
@@ -51,6 +51,21 @@
     </ClCompile>
     <ClCompile Include="Utils.cpp">
       <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="Tunnel.cpp">
+      <Filter>Geometry\Tunnel</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexAcc.cpp">
+      <Filter>Geometry\Tunnel</Filter>
+    </ClCompile>
+    <ClCompile Include="GridAcc.cpp">
+      <Filter>Geometry\Tunnel</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTreeAcc.cpp">
+      <Filter>Geometry\Tunnel</Filter>
+    </ClCompile>
+    <ClCompile Include="Accelerator.cpp">
+      <Filter>Geometry\Tunnel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -81,9 +96,6 @@
     <ClInclude Include="Triangle.h">
       <Filter>Geometry</Filter>
     </ClInclude>
-    <ClInclude Include="Tunnel.h">
-      <Filter>Geometry</Filter>
-    </ClInclude>
     <ClInclude Include="Camera.h">
       <Filter>Miscellaneous</Filter>
     </ClInclude>
@@ -104,6 +116,21 @@
     </ClInclude>
     <ClInclude Include="Utils.h">
       <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="Tunnel.h">
+      <Filter>Geometry\Tunnel</Filter>
+    </ClInclude>
+    <ClInclude Include="Accelerator.h">
+      <Filter>Geometry\Tunnel</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexAcc.h">
+      <Filter>Geometry\Tunnel</Filter>
+    </ClInclude>
+    <ClInclude Include="GridAcc.h">
+      <Filter>Geometry\Tunnel</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTreeAcc.h">
+      <Filter>Geometry\Tunnel</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

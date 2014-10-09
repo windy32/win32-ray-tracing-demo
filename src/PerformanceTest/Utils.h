@@ -10,6 +10,9 @@ public:
     // Debug output
     static void DbgPrint(char *format, ...);
     static void PrintTickCount(char *desc);
+
+    // Memory
+    static int GetMemorySize();
 };
 
 #endif

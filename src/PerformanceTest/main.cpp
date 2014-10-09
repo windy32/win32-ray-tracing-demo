@@ -134,9 +134,11 @@ int main(int argc, char *argv[])
     Tunnel *tunnel = init_scene();
 
     // preprocess
+    int s0 = Utils::GetMemorySize();
     int t1 = Utils::GetTickCount();
     tunnel->init();
     int t2 = Utils::GetTickCount();
+    int s1 = Utils::GetMemorySize();
 
     // Create camera
     Camera camera(
@@ -161,8 +163,8 @@ int main(int argc, char *argv[])
     int t4 = Utils::GetTickCount();
 
     // output
-    printf("%.0f\t%d\t%d\t%.1lf\t%.1lf\t%.1lf\n", PATH_RADIUS, ARCH_SEG, PATH_SEG,
-        (double)(t1 - t0), (double)(t2 - t1), (double)(t4 - t3));
+    printf("%.0f\t%d\t%d\t%.1lf\t%.1lf\t%.1lf\t%.2lf MB\n", PATH_RADIUS, ARCH_SEG, PATH_SEG,
+        (double)(t1 - t0), (double)(t2 - t1), (double)(t4 - t3), (double)(s1 - s0) / (1024 * 1024));
 
     return 0;
 }

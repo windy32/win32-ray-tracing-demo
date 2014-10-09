@@ -205,7 +205,6 @@ bool TunnelGenerator::create(
 
     // 1.1 Add P0
     tunnel->crossSection.vertices.push_back(Point(rectWidth * 0.5f, 0.0, 0.0));
-    tunnel->crossSection.flags.push_back(Tunnel::FLAG_CRITICAL);
 
     // 1.2 Add P1 - P(N-1)
     for (int i = 0; i <= archSegments; i++)
@@ -215,13 +214,10 @@ bool TunnelGenerator::create(
             cos(angle) * rectWidth * 0.5f,
             sin(angle) * archHeight + rectHeight,
             0.0f));
-        tunnel->crossSection.flags.push_back(
-            (i == 0 || i == archSegments) ? Tunnel::FLAG_CRITICAL : Tunnel::FLAG_NONE);
     }
 
     // 1.3 Add PN
     tunnel->crossSection.vertices.push_back(Point(-rectWidth * 0.5f, 0.0, 0.0));
-    tunnel->crossSection.flags.push_back(Tunnel::FLAG_CRITICAL);
 
     // 2. Initialize the path and the tunnel surface
     for (int i = 0; i < pathSegments; i++)

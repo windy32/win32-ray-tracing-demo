@@ -76,10 +76,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Accelerator.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="ConvexAcc.cpp" />
     <ClCompile Include="Geometry.cpp" />
     <ClCompile Include="GeometrySet.cpp" />
     <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="GridAcc.cpp" />
+    <ClCompile Include="KdTreeAcc.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="Plane.cpp" />
@@ -92,11 +96,15 @@
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Accelerator.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="ConvexAcc.h" />
     <ClInclude Include="Geometry.h" />
     <ClInclude Include="GeometrySet.h" />
     <ClInclude Include="Grid.h" />
+    <ClInclude Include="GridAcc.h" />
     <ClInclude Include="IntersectResult.h" />
+    <ClInclude Include="KdTreeAcc.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="Plane.h" />
     <ClInclude Include="Point.h" />
