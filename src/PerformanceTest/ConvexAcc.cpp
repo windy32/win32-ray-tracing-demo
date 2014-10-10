@@ -369,7 +369,7 @@ IntersectResult ConvexAcc::intersect(Ray &ray)
 
                         float fAngle = atan2(newDir.y, newDir.x);
                         fAngle = (fAngle < 0) ? fAngle + PI * 2 : fAngle;
-                        int iAngle = (int)(fAngle / PI * 180.0f);
+                        int iAngle = (int)(fAngle / PI * 180.0f + 0.5f) % 360;
                         iAngle = std::max(0, iAngle);
                         iAngle = std::min(359, iAngle);
 
