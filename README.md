@@ -37,7 +37,7 @@ However, in the first release, spacial subdivision can only be used for tunnel a
 
 **Note: Do not debug the program! Debugging in the release mode can also significantly affect performance. Please use "start (without debugging)" (Ctrl + F5) in Visual Studio. Double clicking on the exe also works.**
 
-##### Screenshots #####
+### Screenshots ###
 
 <img src='https://github.com/windy32/win32-ray-tracing-demo/blob/master/web/screenshot-1.png' />
 
@@ -59,7 +59,7 @@ However, in the first release, spacial subdivision can only be used for tunnel a
 
 **Preset scene 5: a long and narrow tunnel**
 
-##### Information for Paper Reviewers #####
+### Information for Paper Reviewers ###
 
 There is only one table in the paper about the performance of different algorithms, but actually a number of experiments with different parameters have been performed. They are not listed in the paper because there was no space.
 
